@@ -1,139 +1,255 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyrgyzstan tours</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/a59b9b09ab.js"
       crossorigin="anonymous"
     ></script>
-    <title>Home</title>
-    <link rel="stylesheet" href="css/heropage.css" />
-    <link rel="stylesheet" href="css/wheather.css" />
-    <link rel="stylesheet" href="css/scroll-bar.css" />
-    <link rel="stylesheet" href="wheather-slide.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/heropage copy.css" />
+    <link rel="stylesheet" href="css/scroll-bar-copy.css" />
+    <link rel="stylesheet" href="css/wheather-copy.css" />
+    <link rel="stylesheet" href="wheather-slide-copy.css" />
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/7-days-itinerary.css" />
+    <link rel="stylesheet" href="css/overnight.css" />
+    <link rel="stylesheet" href="css/itinerary-slide.css" />
+    <link rel="stylesheet" href="css/why-us.css" />
+    <link rel="stylesheet" href="css/testimonial.css" />
+    <link rel="stylesheet" href="css/plan-section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <link rel="stylesheet" href="css/our-partners.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="hero-section">
-      <!-- Header with Logo and Navigation Links -->
-      <header>
-        <div class="nav-container">
-          <a href="https://yourwebsite.com" class="logo-link">
-            <img src="images/brand-logo/logo-2.png" alt="Your Website Logo" />
-          </a>
-          <ul class="nav-links">
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="https://yourwebsite.com/services">Services</a></li>
-            <li><a href="https://yourwebsite.com/contact">Contact</a></li>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/brand-logo/logo-2.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
           </ul>
         </div>
-      </header>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-      <!-- Main Content Area -->
-      <main class="hero-h1-text">
-        <span class="hero-h1">
-          <h1>When Once in a Lifetime</h1>
-          <h1>is Just the Beginning</h1>
-        </span>
+      <div class="text-box">
+        <h1>
+          Unforgettable Journeys in <br />
+          Stunning Landscapes.
+        </h1>
 
-        <p>Tailor-made luxury Mountain safari tours.</p>
-      </main>
+        <p>Exploring Kyrgyzstan's Wonders</p>
+      </div>
+      <div class="button">
+        <a href="contact.html" class="hero-btn">Help Me Plan</a>
+      </div>
     </section>
 
     <!-- Second small page like descriotion -->
     <section class="second-mini-description">
-      <div class="row">
-        <h2 class="text-start text--light">
-          Kyrgyzstan Top Wildlife Experiences
-        </h2>
-        <p class="text-start fs-5 text--white">
-          Whether you are dreaming of a first-hand meeting with the Big 5,
-          getting up close and personal to a gorilla, witnessing one of the
-          planet's most spectacular natural events, or simply relaxing on a
-          pristine beach, our experts will tell you how and where to do it.
-        </p>
+      <div class="mini-des-row">
+        <div class="mini-secrioption-cal">
+          <h2 class="text-start text--light">
+            Discover the Heart of Kyrgyzstan
+          </h2>
+          <p class="text-start fs-5 text--white">
+            Kyrgyzstan is a land of breathtaking mountains, crystal-clear lakes,
+            and timeless nomadic traditions. Immerse yourself in its vibrant
+            culture, explore pristine landscapes, and experience warm
+            hospitality that leaves lasting memories. From thrilling adventures
+            to peaceful moments in nature, Kyrgyzstan offers a journey like no
+            other.
+          </p>
+        </div>
       </div>
     </section>
 
-    <!-- Horizontal Scroll Bar -->
-
-    <section class="horizontal-scroll-bar">
-      <div class="main-scroll-div">
-        <div>
-          <button class="icon" onclick="scrollr()">
-            <i class="fas fa-angle-double-left"></i>
-          </button>
-        </div>
-        <div class="cover">
-          <div class="scroll-images">
-            <div class="child">
-              <img
-                class="child-img"
-                src="images/images/highlights-scroll-photo-3.jpg"
-                alt="image"
-              />
+    <!-- third img descriotion -->
+    <div class="overnight-hotels">
+      <button class="prev-button">❮</button>
+      <div class="slider-wrapper slider-wrapper-2">
+        <div class="overnight-slider">
+          <div class="slide slide-1">
+            <div class="slide-img slide-img-2">
+              <img src="images/highlights/1 eagle.jpg" alt="Overnight Kemin" />
+              <div class="text-overlay text-overlay-2">
+                <h3>Experience the Art of Eagle Hunting</h3>
+                <p>
+                  Discover the ancient Kyrgyz tradition as you watch majestic
+                  eagles in action, showcasing their incredible hunting skills.
+                </p>
+              </div>
             </div>
-            <div class="child">
+          </div>
+          <div class="slide slide-2">
+            <div class="slide-img slide-img-2">
               <img
-                class="child-img"
-                src="images/images/highlights-scroll-photo-2.jpg"
-                alt="image"
+                src="images/highlights/2 arashan.png"
+                alt="Overnight Arashan"
               />
+              <div class="text-overlay text-overlay-2">
+                <h3>Reconnect with Nature in Stunning Valleys</h3>
+                <p>
+                  Experience the peaceful harmony of rivers, forests, and
+                  mountains.
+                </p>
+              </div>
             </div>
-            <div class="child">
+          </div>
+          <div class="slide slide-3">
+            <div class="slide-img slide-img-2">
               <img
-                class="child-img"
-                src="images/images/highlights-scroll-photo-4.jpg"
-                alt="image"
+                src="images/highlights/3 son-kol.png"
+                alt="Overnight Son Kol"
               />
+              <div class="text-overlay text-overlay-2">
+                <h3>Stay in Traditional Yurts at Son-Kol</h3>
+                <p>
+                  Experience the nomadic lifestyle in cozy yurts by the serene
+                  Son-Kol Lake.
+                </p>
+              </div>
             </div>
-            <div class="child">
+          </div>
+          <div class="slide slide-4">
+            <div class="slide-img slide-img-2">
               <img
-                class="child-img"
-                src="images/images/highlights-scroll-photo-5.jpg"
-                alt="image"
+                src="images/highlights/4 yurt-experience.png"
+                alt="Overnight Son Kol"
               />
+              <div class="text-overlay text-overlay-2">
+                <h3>A Saline Jewel Among the Mountains</h3>
+                <p>
+                  Issyk-Kul ranks as the third-biggest saline lake in the world.
+                </p>
+              </div>
             </div>
-            <div class="child">
+          </div>
+          <div class="slide slide-5">
+            <div class="slide-img slide-img-2">
               <img
-                class="child-img"
-                src="images/images/highlights-scroll-photo-6.jpg"
-                alt="image"
+                src="images/highlights/5 horse-riding.png"
+                alt="Overnight Son Kol"
               />
+              <div class="text-overlay text-overlay-2">
+                <h3>Horseback Riding in the Heart of Nature</h3>
+                <p>
+                  Connect with Kyrgyz nomadic traditions as you ride through
+                  dramatic mountain terrain.
+                </p>
+              </div>
             </div>
-            <div class="child">
+          </div>
+          <div class="slide slide-6">
+            <div class="slide-img slide-img-2">
               <img
-                class="child-img"
-                src="images/images/homepage-img.jpg"
-                alt="image"
+                src="images/highlights/6 canion.png"
+                alt="Overnight Son Kol"
               />
+              <div class="text-overlay text-overlay-2">
+                <h3>Step Into the Vibrant World of the Canyon</h3>
+                <p>
+                  Experience the beauty of Kyrgyzstan’s natural wonder with
+                  striking colors and rugged charm.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-7">
+            <div class="slide-img slide-img-2">
+              <img
+                src="images/highlights/7 local.png"
+                alt="Overnight Son Kol"
+              />
+              <div class="text-overlay text-overlay-2">
+                <h3>Stories by the Fire, Stars Above</h3>
+                <p>
+                  Share laughter and tales under a breathtaking canopy of stars.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-8">
+            <div class="slide-img slide-img-2">
+              <img src="images/highlights/8 kak.png" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h3>Savor the Flavors of Local Markets</h3>
+                <p>
+                  Discover the rich variety of dried fruits, nuts, and treats in
+                  a bustling bazaar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-9">
+            <div class="slide-img slide-img-2">
+              <img src="images/highlights/9 nan.png" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h3>Freshly Baked Bread, Straight from the Bazaar</h3>
+                <p>
+                  Enjoy the rich aroma and intricate designs of hand-crafted
+                  nan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-10">
+            <div class="slide-img slide-img-2">
+              <img
+                src="images/highlights/10 stone-culture.png"
+                alt="Overnight Son Kol"
+              />
+              <div class="text-overlay text-overlay-2">
+                <h3>A Glimpse into the Spirit of History</h3>
+                <p>
+                  Connect with the ancient world through these unique and
+                  captivating stone sculptures.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div>
-          <button class="icon" onclick="scrolll()">
-            <i class="fas fa-angle-double-right"></i>
-          </button>
-        </div>
       </div>
-    </section>
+      <button class="next-button">❯</button>
+    </div>
 
     <!-- Best time to visit-->
-    <section class="wheather">
+    <section class="wheather-section">
       <div class="row">
         <div class="wheather-text">
-          <h1>
-            Best time to visit <br />
-            Kyrgyzstan
-          </h1>
-          <p>And the best times to travel for a safari</p>
-          <p>
-            Whether you're planning to witness the Great Wildebeest Migration in
-            East Africa, experience a Big 5 safari in the Kruger National Park
-            or spend the end of your honeymoon in the Seychelles, timing is
-            important. Our experts can guide you around the best times and
-            destinations to visit based on what you want to see or when you want
-            to travel.
+          <h2>Best Time to Visit Kyrgyzstan</h2>
+          <p class="wheather-text">
+            Kyrgyzstan boasts stunning landscapes year-round, from lush pastures
+            in summer to snowy peaks in winter. Each season offers unique
+            adventures, cultural experiences, and natural beauty. Here’s a quick
+            guide to exploring Kyrgyzstan’s charm in every season.
           </p>
         </div>
       </div>
@@ -144,40 +260,69 @@
     <section class="wheather-slide">
       <div class="container">
         <div class="slider">
-          <div class="slides" style="--img: url('images/weather-img/1.jpg')">
+          <div
+            class="slides"
+            style="--img: url('images/weather-img/spring.jpg')"
+          >
             <div class="content">
-              <h2>Spring season</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2>
+                Spring<br />
+                <span>(March - May)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p>
+                  The countryside comes alive with wildflowers, poppy fields,
+                  and fresh greenery, perfect for low-elevation hikes and
+                  enjoying nature's awakening.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="slides" style="--img: url('images/weather-img/2.jpg')">
+          <div
+            class="slides"
+            style="--img: url('images/weather-img/summer.jpg')"
+          >
             <div class="content">
-              <h2>Summer season</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2>
+                Summer<span> <br />(June - August)</span>
+              </h2>
+
+              <div class="wheather-text-t">
+                <p>
+                  It's the perfect season for outdoor adventures: trek open
+                  mountain trails, visit sunlit alpine lakes like Issyk-Kul, and
+                  stay in yurt camps for a nomadic experience.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="slides" style="--img: url('images/weather-img/3.jpg')">
+          <div
+            class="slides"
+            style="--img: url('images/weather-img/autumn.jpg')"
+          >
             <div class="content">
-              <h2>Autumn season</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2>
+                Autumn <span> <br />(September - November)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p>
+                  Golden and crimson landscapes, cooler weather, and stunning
+                  valleys make it ideal for exploring and photography.
+                </p>
+              </div>
             </div>
           </div>
           <div class="slides" style="--img: url('images/weather-img/4.jpg')">
             <div class="content">
-              <h2>Winter season</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2>
+                Winter<span> <br />(December - February)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p>
+                  A snowy wonderland awaits with skiing, snowboarding, hot
+                  springs, and peaceful mountain serenity.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -187,7 +332,812 @@
         </div>
       </div>
     </section>
+
+    <!-------- Map  ---------->
+    <section class="map-section">
+      <div class="map-row">
+        <div class="map-cal map-text">
+          <h2>Destination Overview</h2>
+          <div class="map-text-p">
+            <p>
+              This is an overview map of the destinations we’ll visit,
+              showcasing the diverse and stunning landscapes that highlight the
+              best of Kyrgyzstan.
+            </p>
+          </div>
+          <div class="google-map">
+            <a
+              class="google-map-link"
+              target="_blank"
+              href="https://www.google.co.th/maps/dir/Bishkek,+Kyrgyzstan/Chon-Kemin,+Kyrgyzstan/Naryn,+Kyrgyzstan/Shabyr+Yurt+Camp,+Ekachat,+Kyrgyzstan/%22Yurt+Camp+Baiysh%22,+Ozero+Sonkel,+Kyrgyzstan/Bokonbayevo,+Kyrgyzstan/Karakol,+Kyrgyzstan/Altyn-Arashan,+Altynarasan,+Kyrgyzstan/Cholpon+Ata,+Kyrgyzstan/Bishkek/@42.1381734,73.9484104,7z/data=!3m1!4b1!4m62!4m61!1m5!1m1!1s0x389eb7dc91b3c881:0x492ebaf57cdee27d!2m2!1d74.5697617!2d42.8746212!1m5!1m1!1s0x389b6996fb17fff3:0x1495f6a9fa060fee!2m2!1d76.1277866!2d42.7441757!1m5!1m1!1s0x38906bac89c2f9cb:0xb400cbc7951a0aa4!2m2!1d75.9840587!2d41.4273946!1m5!1m1!1s0x389a0151a53ac881:0x9e5a08cf1b42cf2c!2m2!1d74.9842077!2d41.6112504!1m5!1m1!1s0x389a1bbe4d29d169:0xd95885fa41272163!2m2!1d75.1254448!2d41.7587547!1m5!1m1!1s0x38856d438f5b8b31:0xe2a04fd708963bbc!2m2!1d76.9931074!2d42.1171832!1m5!1m1!1s0x38865b91e1f04c0b:0xeb5bfe3900e7ecfa!2m2!1d78.3955986!2d42.4782102!1m5!1m1!1s0x38864b7ff6492d79:0x173f0efe7295042!2m2!1d78.606668!2d42.3815729!1m5!1m1!1s0x3884f13ef943156b:0xb9927fc9c380d0d8!2m2!1d77.0852258!2d42.6503176!1m5!1m1!1s0x389eb7dc91b3c881:0x492ebaf57cdee27d!2m2!1d74.5697617!2d42.8746212!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMS4wIKXMDSoASAFQAw%3D%3D"
+              ><button
+                href="https://www.google.co.th/maps/dir/Bishkek,+Kyrgyzstan/Chon-Kemin,+Kyrgyzstan/Naryn,+Kyrgyzstan/Shabyr+Yurt+Camp,+Ekachat,+Kyrgyzstan/%22Yurt+Camp+Baiysh%22,+Ozero+Sonkel,+Kyrgyzstan/Bokonbayevo,+Kyrgyzstan/Karakol,+Kyrgyzstan/Altyn-Arashan,+Altynarasan,+Kyrgyzstan/Cholpon+Ata,+Kyrgyzstan/Bishkek/@42.1381734,73.9484104,7z/data=!3m1!4b1!4m62!4m61!1m5!1m1!1s0x389eb7dc91b3c881:0x492ebaf57cdee27d!2m2!1d74.5697617!2d42.8746212!1m5!1m1!1s0x389b6996fb17fff3:0x1495f6a9fa060fee!2m2!1d76.1277866!2d42.7441757!1m5!1m1!1s0x38906bac89c2f9cb:0xb400cbc7951a0aa4!2m2!1d75.9840587!2d41.4273946!1m5!1m1!1s0x389a0151a53ac881:0x9e5a08cf1b42cf2c!2m2!1d74.9842077!2d41.6112504!1m5!1m1!1s0x389a1bbe4d29d169:0xd95885fa41272163!2m2!1d75.1254448!2d41.7587547!1m5!1m1!1s0x38856d438f5b8b31:0xe2a04fd708963bbc!2m2!1d76.9931074!2d42.1171832!1m5!1m1!1s0x38865b91e1f04c0b:0xeb5bfe3900e7ecfa!2m2!1d78.3955986!2d42.4782102!1m5!1m1!1s0x38864b7ff6492d79:0x173f0efe7295042!2m2!1d78.606668!2d42.3815729!1m5!1m1!1s0x3884f13ef943156b:0xb9927fc9c380d0d8!2m2!1d77.0852258!2d42.6503176!1m5!1m1!1s0x389eb7dc91b3c881:0x492ebaf57cdee27d!2m2!1d74.5697617!2d42.8746212!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMS4wIKXMDSoASAFQAw%3D%3D"
+                class="google-btn"
+              >
+                Open Goole Map
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="map-cal map-img">
+          <img src="images/map.png" />
+        </div>
+        <div class="map-cal map-text">
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!----------itinerary ----------->
+
+    <section class="itinerary eight-days-itinerary">
+      <h1 class="itinerary-title">8 Days Best Of Kyrgyzstan</h1>
+      <div class="itinerary-row">
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 1 :</span> Bishkek - Chon Kemin</h3>
+            <p>Drive: 150km</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/Chon Kemin.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p class="text-about-tour-col">
+                    The journey is expected to take around 2 hours. Our guest
+                    house in Chon Kemin is nestled next to the mountains, and we
+                    anticipate arriving by noon. Lunch will be served at the
+                    guest house, providing an opportunity to unwind and
+                    appreciate the beauty of the Chon Kemin Valley. After lunch,
+                    we'll embrace the valley's beauty with a 2-3 hour horseback
+                    ride—a wonderful way to immerse ourselves in the stunning
+                    scenery and experience the tranquility of the area. In the
+                    evening learn more about kyrgyz traditional clothing: local
+                    aunty will come and show you Elechek traditional headdress.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>
+                      Overnight: Jekshen guest house or Kok Archa guest house
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 2 :</span> Chon Kemin–Kochkor – Naryn – Shabyr</h3>
+            <p>Drive: 280 km</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/Shabyr.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    Early morning drive from Chon Kemin to Central Kyrgyzstan,
+                    heading towards Naryn. On the way, we will stop to see
+                    traditional Kyrgyz carpet-making, a UNESCO heritage craft.
+                    Lunch will be served in Naryn city. From there, it's a
+                    two-hours drive to Shabyr yurt camp, followed by a walk
+                    through the forest to the camp. Check into the yurts and
+                    enjoy dinner at the camp.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Shabyr yurt camp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 3 :</span> Shabyr – Song Kol</h3>
+            <p>Drive: 50km off road drive</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/son-kol.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    Today, we have a 2.5-hour trekking from the yurt camp to the
+                    Moldo Ashuu pass (please prepare trekking or walking shoes),
+                    which is one of the untouched places in Central Kyrgyzstan.
+                    We'll stop for a picnic lunch next to the Uzun Bulak river.
+                    Near Moldo Ashuu pass, our car will pick us up, and we'll
+                    head to Song Kol Lake, taking in the beauty of the southern
+                    shore. By afternoon at 2 pm we will arrive at our yurt camp,
+                    enjoy your time in Song kol. Dinner at the camp.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Mirlan or Baiysh yurt camp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 4 : </span> Song Kol – Bokonbayevo village</h3>
+            <p>Drive: 250km (100 km off road)</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/eagle-show.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    By noon at 11 am we will drive to Bokonbayevo village to
+                    explore the Issyk-Kul region, starting with the south shore.
+                    On the way, we'll visit Teskey Torpok waterfall and have
+                    lunch in Kochkor village. After lunch, an eagle man will
+                    demonstrate traditional Kyrgyz eagle hunting with a golden
+                    eagle. We'll then relax by the Issyk-Kul Lake—feel free to
+                    swim or meditate by the mountain lake. Dinner will be served
+                    at the guest house.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Emily guest house or Altyn Oimok</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span> Day 5 : </span> Bokonbayevo-Karakol</h3>
+            <p>Drive: 150 km</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/karakol.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    After breakfast we will drive to Fairy tail canyons to walk
+                    between red rocks in the morning lights. By noon we will
+                    arrive at Barskoon village for a yurt set up with Meken ava-
+                    he is the one the best yurt producers in Kyrgyzstan. Lunch
+                    in Meken ava’s house. After lunch we will drive to Jeti
+                    oguz( 7 bulls canyon) to see global lift up traces. By
+                    evening you will arrive in Karakol city visit Dungan mosque
+                    and Orthodox church. Dinner at ethno restaurant.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Matsunoki Japanese House</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 6 : </span> Karakol – Altyn Arashan- Karakol</h3>
+            <p>Drive: 50 km off road</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/altun-arashan.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    Today we have an adventure to Altyn arashan valley-we call
+                    it the land of hot springs. The Russian military car will
+                    pick you up at 8 am, drive will take around 2 hours, it's a
+                    very stony, bumpy off road drive, please prepare for this
+                    adventure. Upon arrival we will have lunch in the mountain
+                    house. Afternoon time to hike around the valley ( around 2
+                    hours). By coming to the basecamp, I swim in a hot spring.
+                    By evening, will back to Karakol city and stay in the same
+                    Japanese house.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Matsunoki Japanese House</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 7 :</span> Karakol – Cholpon ata</h3>
+            <p>Drive: 150 km – driving</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="8-days-image/cholpon-ata.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    Today we will explore the north shore of Issyk-Kul Lake.
+                    This side is more westernized, as most Russian people
+                    settled here during the Soviet Union era in the 20th
+                    century. Afternoon, we will take a cruise with views of the
+                    snowy mountains. If you want you can swim in the mountain
+                    lake. Chill time in the evening on the beach. Dinner at a
+                    local restaurant.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Olimp hotel</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="itinerary-day-cal">
+          <div class="itinerary-question">
+            <h3><span>Day 8 :</span> Cholpon ata - Bishkek</h3>
+            <p>Drive: 270 km</p>
+
+            <svg width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="black"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="itinerary-answer">
+            <div class="row-2">
+              <div class="about-tour-col">
+                <img loading="lazy" src="image-itinerary/osh-bazaar.png" />
+              </div>
+
+              <div class="about-tour-col">
+                <div class="about-tour-col-info">
+                  <p>
+                    On our last day of the tour, we'll drive from Cholpon Ata to
+                    Bishkek. We will have lunch on the way and visit Osh Bazaar
+                    to buy local dried fruits and souvenirs. After checking into
+                    the hotel, we'll enjoy a farewell dinner at Apa’s house.
+                  </p>
+                  <div class="overnight">
+                    <i class="fa fa-home"></i>
+                    <p>Overnight: Olimp hotel</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Overnight-Hotels --------->
+
+    <section class="accommodation">
+      <div class="accommodation-title">
+        <div class="accommodation-text">
+          <h2>Accommodation</h2>
+          <p>
+            Our favourite accommodations are the most intimate ones.  It's
+            always best to book as far ahead as possible to ensure you have
+            experiences like this.
+          </p>
+        </div>
+      </div>
+      <div class="overnight-hotels">
+        <button class="prev-button">❮</button>
+        <div class="slider-wrapper slider-wrapper-2">
+          <div class="overnight-slider">
+            <div class="slide slide-1">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/Kok-Archa Guesthouse.png"
+                  alt="Overnight Kemin"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Kok-Archa Guesthouse</h3>
+                  <p>
+                    Kok-Archa Guesthouse offers cozy stays, tasty food, and
+                    outdoor adventures in a serene setting.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-2">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-shabyr yurt camp.png"
+                  alt="Overnight Arashan"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Shabyr yurt camp</h3>
+                  <p>
+                    There are 2-4 beds yurts available. Equipet shared bathroom
+                    outside of the yurts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-3">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-son-kol.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Baiysh and Mirlan yurt camps.</h3>
+                  <p>
+                    There are 2-4 beds yurts available. Equipet shared bathroom
+                    outside of the yurts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-4">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/Guest House Jekshen.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Guest House Jekshen</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-5">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-Matsunoki Japanese house.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Matsunoki Japanese house</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-6">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-Altyn Oimok guest house.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Altyn Oimok guest house</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-7">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-Guest House Emily.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Guest House Emily</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide slide-9">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-Crown hotel.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Bishkek :Crown hotel</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-10">
+              <div class="slide-img slide-img-2">
+                <img
+                  src="accommodation/8-Bishkek_ Freedom.png"
+                  alt="Overnight Son Kol"
+                />
+                <div class="text-overlay text-overlay-2">
+                  <h3>Bishkek: Freedom hotel</h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="next-button">❯</button>
+      </div>
+    </section>
+
+    <!-------- Why choose us? ---------->
+
+    <section class="why-choose-us">
+      <div class="why-us-row">
+        <h2 class="section-title">
+          Why Travel with <br />
+          Go2 Mountain
+        </h2>
+        <div class="why-us-container">
+          <div class="features">
+            <div class="feature">
+              <div class="feature-icon">🏔️</div>
+              <h2>We are Kyrgyz locals</h2>
+              <p>
+                Our team is proudly from Kyrgyzstan, with deep roots in its
+                culture, traditions, and landscapes. We offer you an authentic
+                experience guided by local expertise and a passion for our
+                homeland.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">🐎</div>
+              <h2>We are mountain experts</h2>
+              <p>
+                With unmatched knowledge of Kyrgyzstan’s stunning mountains,
+                trekking routes, and hidden gems, we ensure your journey through
+                the Tien Shan and beyond is safe, exciting, and unforgettable.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">💵</div>
+              <h2>Our best price promise</h2>
+              <p>
+                Thanks to our strong local connections, we deliver the best
+                prices for your adventure without compromising on quality. Our
+                advice is always honest and tailored to your needs.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">🤝</div>
+              <h2>Your money stays in Kyrgyzstan</h2>
+              <p>
+                By traveling with us, you support Kyrgyz communities, local
+                guides, and conservation efforts, ensuring a positive impact
+                that lasts beyond your trip.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Our Partners----------->
+    <section class="our-partners-section">
+      <div class="our-partners">
+        <h1>Our Partners</h1>
+        <div class="our-partners-description">
+          Everything is about relationships, but for us, it's about shared
+          passion and enjoying our mission together.
+        </div>
+
+        <div class="row">
+          <img src="bek-ruby-logo/go2mountains.png" alt="" />
+
+          <img src="bek-ruby-logo/nomadia-logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-------- Testimonial ---------->
+    <section class="testimonial-container">
+      <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="testimonial-slide swiper-slide">
+            <img
+              src="images/testimonial/review-1.jpeg"
+              alt=""
+              class="testimonial-img"
+            />
+            <p>
+              Time flies and it is hard to believe it is time to say goodbye to
+              Tendik and Navat after ten days that was full of unforgettable
+              memories and laughs🤣thank you for your hospitality and friendship
+              and pls keep in touch visit us in HK sooner 😚
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="testi-name">Patrik</span>
+              <span class="job"></span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide swiper-slide">
+            <img
+              src="images/testimonial/review-2.jpeg"
+              alt=""
+              class="testimonial-img"
+            />
+            <p>
+              The first time I came across your channel and subscribed was
+              because of Kyrgyzstan, a country I had only learned about in
+              geography class. If I hadn't seen your videos, I might have truly
+              missed the chance to witness such a paradise on earth.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="testi-name">Li Li</span>
+              <span class="job"></span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide swiper-slide">
+            <img
+              src="images/testimonial/review 1.png"
+              alt=""
+              class="testimonial-img"
+            />
+            <p>
+              We are especially grateful for your family’s hospitality and
+              kindness. It is beyond words and we are forever grateful and will
+              never forget. If there is any point that you and your family are
+              coming to dubai - please let us know and we hope to show you
+              around
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="testi-name">Tina</span>
+              <span class="job"></span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide swiper-slide">
+            <img
+              src="images/testimonial/ala-archa-3.jpg"
+              alt=""
+              class="testimonial-img"
+            />
+            <p>
+              Staying in a yurt at Son-Kol and riding horses through those
+              stunning landscapes was unforgettable! The local food was so
+              delicious too—thank you for such an authentic experience!
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="testi-name">Urmat</span>
+              <span class="job"></span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide swiper-slide">
+            <img
+              src="images/testimonial/Dubai-guests.JPG"
+              alt=""
+              class="testimonial-img"
+            />
+            <p>
+              Your tour made me fall in love with Kyrgyzstan! The landscapes at
+              Son-Kol took my breath away, and staying in a yurt was so cozy and
+              unique. I’ll never forget the horse riding—it made me feel so
+              connected to nature. And the local food? Absolutely delicious!
+              Can’t wait to come back for more.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="testi-name">Martin</span>
+              <span class="job"></span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-------- plan section ---------->
+    <section class="start-plan">
+      <div class="plan-content">
+        <div class="plan-info">
+          <div class="plan-column">
+            <h2>
+              How many once in a lifetime <br />
+              will you have ?
+            </h2>
+            <p>Contact us to start planning your first, with no obligation.</p>
+            <div class="button plan-btn">
+              <a href="contact.html" class="hero-btn">Help Me Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <footer class="footer-test">
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="col-md-4">
+            <h4>About Us</h4>
+            <p>
+              We create unforgettable journeys for those who value life’s
+              moments over material things. Let nature inspire you—your
+              adventure starts here!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.copy.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fa fa-map-marker"></i> Kyrgyzstan, Naryn <br />
+              <i class="fa -fa-phone"></i><br />
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:info@travelagency.com">go2mountain@gmail.com</a>
+            </p>
+            <ul class="social-links">
+              <li>
+                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2021 Travel Agency. All rights reserved.</p>
+      </div>
+    </footer>
+    <!----Swiper JS---->
+    <script src="script/swiper-bundle.min.js"></script>
+
+    <!----JavaScript for toggle menu---->
+    <script src="script/horizontal-scroll-bar.js"></script>
+    <script src="script/weather-slide.js"></script>
+    <script src="script/overnight-hotel.js"></script>
+    <script src="script/itinery-slider.js"></script>
+    <script src="script/itinerary-html.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script defer src="script/itinery-img-slide.js"></script>
+    <script src="script/testimonial.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      //---------- Acardion itinarary -----------//
+
+      const faqs = document.querySelectorAll(".itinerary-day-cal");
+
+      faqs.forEach((faq) => {
+        faq.addEventListener("click", () => {
+          faq.classList.toggle("active");
+        });
+      });
+    </script>
   </body>
-  <script src="script/horizontal-scroll-bar.js"></script>
-  <script src="script/weather-slide.js"></script>
 </html>
