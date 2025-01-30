@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  height: 100%; /* Full height for body to cover with background */
+  background-image: url("/images/images/homepage-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-color: black;
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+/* Header styles */
+header {
+  color: white; /* Text color for the header */
+  padding: 20px;
+  padding-top: 30px; /* Space inside the header */
+  text-align: center; /* Center the text and logo */
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Navigation container */
+.nav-container {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center; /* Vertically center items */
+}
+
+/* Logo link styles */
+.logo-link {
+  text-decoration: none; /* Remove underline from the link */
+  color: white; /* Text color for the link */
+  display: inline-flex; /* Inline-flex to keep items inline and aligned */
+  align-items: center; /* Vertically center items */
+}
+
+.logo-link img {
+  width: auto;
+  height: 50px;
+  margin-right: 10px; /* Space between the logo and the text */
+}
+
+/* Navigation links styles */
+.nav-links {
+  list-style-type: none; /* Remove list bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display links inline */
+}
+
+.nav-links li {
+  margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color for links */
+  font-size: 18px; /* Font size for links */
+}
+
+.nav-links a:hover {
+  color: #ddd; /* Change link color on hover */
+}
+
+/* Main content styles */
+main {
+  padding: 20px; /* Space inside the main content area */
+  text-align: center; /* Center the main content */
+}
+
+.hero-h1-text {
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 90px;
+}
+
+.hero-h1 {
+  line-height: 24px;
+}
+
+.hero-h1-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Secodary content styles */
+.second-mini-description {
+  height: 70%;
+  background-color: white;
+}
+
+.row {
+  align-items: center;
+  width: 856px;
+  margin: auto;
+  padding-top: 130px;
+}
+
+.text-start {
+  text-align: left !important;
+}
+
+.text--light {
+  color: 444343 !important;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.fs-5 {
+  width: 856px;
+  font-size: 1.25rem !important;
+  line-height: 30px;
+}
+
+.text--white {
+  color: rgb(68, 67, 67);
+}
+
+@media (max-width: 480px) {
+  .mini-secrioption-cal h2 {
+    font-size: 2px;
+    color: red;
+  }
+}

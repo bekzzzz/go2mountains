@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a59b9b09ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/heropage.css" />
+    <link rel="stylesheet" href="css/wheather.css" />
+    <link rel="stylesheet" href="css/scroll-bar.css" />
+    <link rel="stylesheet" href="wheather-slide.css" />
+  </head>
+  <body>
+    <section class="hero-section">
+      <!-- Header with Logo and Navigation Links -->
+      <header>
+        <div class="nav-container">
+          <a href="https://yourwebsite.com" class="logo-link">
+            <img src="images/brand-logo/logo-2.png" alt="Your Website Logo" />
+          </a>
+          <ul class="nav-links">
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="https://yourwebsite.com/services">Services</a></li>
+            <li><a href="https://yourwebsite.com/contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Main Content Area -->
+      <main class="hero-h1-text">
+        <span class="hero-h1">
+          <h1>When Once in a Lifetime</h1>
+          <h1>is Just the Beginning</h1>
+        </span>
+
+        <p>Tailor-made luxury Mountain safari tours.</p>
+      </main>
+    </section>
+
+    <!-- Second small page like descriotion -->
+    <section class="second-mini-description">
+      <div class="row">
+        <h2 class="text-start text--light">
+          Kyrgyzstan Top Wildlife Experiences
+        </h2>
+        <p class="text-start fs-5 text--white">
+          Whether you are dreaming of a first-hand meeting with the Big 5,
+          getting up close and personal to a gorilla, witnessing one of the
+          planet's most spectacular natural events, or simply relaxing on a
+          pristine beach, our experts will tell you how and where to do it.
+        </p>
+      </div>
+    </section>
+
+    <!-- Horizontal Scroll Bar -->
+
+    <section class="horizontal-scroll-bar">
+      <div class="main-scroll-div">
+        <div>
+          <button class="icon" onclick="scrollr()">
+            <i class="fas fa-angle-double-left"></i>
+          </button>
+        </div>
+        <div class="cover">
+          <div class="scroll-images">
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/highlights-scroll-photo-3.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/highlights-scroll-photo-2.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/highlights-scroll-photo-4.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/highlights-scroll-photo-5.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/highlights-scroll-photo-6.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="child">
+              <img
+                class="child-img"
+                src="images/images/homepage-img.jpg"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="icon" onclick="scrolll()">
+            <i class="fas fa-angle-double-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best time to visit-->
+    <section class="wheather">
+      <div class="row">
+        <div class="wheather-text">
+          <h1>
+            Best time to visit <br />
+            Kyrgyzstan
+          </h1>
+          <p>And the best times to travel for a safari</p>
+          <p>
+            Whether you're planning to witness the Great Wildebeest Migration in
+            East Africa, experience a Big 5 safari in the Kruger National Park
+            or spend the end of your honeymoon in the Seychelles, timing is
+            important. Our experts can guide you around the best times and
+            destinations to visit based on what you want to see or when you want
+            to travel.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wheather Slider -->
+
+    <section class="wheather-slide">
+      <div class="container">
+        <div class="slider">
+          <div class="slides" style="--img: url('images/weather-img/1.jpg')">
+            <div class="content">
+              <h2>Spring season</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="slides" style="--img: url('images/weather-img/2.jpg')">
+            <div class="content">
+              <h2>Summer season</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="slides" style="--img: url('images/weather-img/3.jpg')">
+            <div class="content">
+              <h2>Autumn season</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="slides" style="--img: url('images/weather-img/4.jpg')">
+            <div class="content">
+              <h2>Winter season</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <span class="prev"></span>
+          <span class="next"></span>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script/horizontal-scroll-bar.js"></script>
+  <script src="script/weather-slide.js"></script>
+</html>

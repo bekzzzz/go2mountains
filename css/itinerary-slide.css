@@ -1,0 +1,341 @@
+/*---------------------------- Itinary ----------------------------*/
+
+.itinerary {
+  min-height: 750px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+  /*background-color: #fff;
+  border-radius: 10px; */
+}
+
+.itinerary-row {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.itinerary h1 {
+  font-size: 32px;
+  columns: var(--text-color);
+}
+
+.itinerary-title {
+  font-size: 40px;
+  margin: 2rem 0rem;
+}
+
+.itinerary-day-cal {
+  max-width: auto;
+  margin-top: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid rgb(172, 170, 170);
+  cursor: pointer;
+}
+
+.itinerary-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itinerary-day-cal h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.itinerary-day-cal h3 span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.itinerary-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.itinerary-answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.itinerary-day-cal.active .itinerary-answer {
+  max-height: 650px;
+  animation: fade 1s ease-in-out;
+}
+
+.itinerary-day-cal.active svg {
+  transform: rotate(180deg);
+}
+
+svg {
+  transition: transform 0.3s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*.about-tour-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+  text-align: left;
+} */
+
+.about-tour-col-info {
+  align-items: center;
+}
+
+.about-tour-col p {
+  font-size: 16px;
+  padding: 15px 0 25px;
+  color: #505050;
+  align-items: center;
+}
+
+.content-image {
+  flex-basis: 50%;
+}
+
+.overnight .fa {
+  margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  .itinerary {
+    min-height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .itinerary-row {
+    background-color: #fff0e5;
+    padding: 50px;
+    border-radius: 15px;
+  }
+
+  .row-2 {
+    flex-direction: column;
+  }
+
+  .row-2 .about-tour-col {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .row-2 .about-tour-col .about-tour-col-info {
+    padding-top: 0;
+  }
+
+  .itinerary-day-cal h3 {
+    font-size: 1rem;
+  }
+
+  .about-tour-col p {
+    font-size: 16px;
+    color: #666;
+    align-items: center;
+  }
+
+  .row-2 .about-tour-col img {
+    width: 400px;
+    height: 200px;
+    background-color: #2980b9;
+  }
+
+  .itinerary-question p {
+    font-size: 12px;
+  }
+
+  .itinerary h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .itinerary-row {
+    width: 110%;
+  }
+
+  .itinerary {
+    min-height: 120vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .price-include {
+    padding-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .description {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .highlights {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .price-not-included-container {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  section.testimonial {
+    margin-bottom: 0px;
+  }
+
+  .about-tour-col p {
+    font-size: 16px;
+    padding: 15px 0 25px;
+    color: #505050;
+    align-items: center;
+  }
+}
+
+/*----tour ----*/
+
+.section-about-tour {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.sub-header h1 {
+  margin-top: 100px;
+}
+
+.seven-day-tours {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.row {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-1 {
+  margin-bottom: 100px;
+}
+
+.row-1 .day {
+  display: flex;
+  background-color: #2980b9;
+  color: white;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-1 .day-two {
+  width: 150px;
+  background-color: #2980b9;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-tour-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+  text-align: left;
+}
+
+.about-tour-col .day {
+  background-color: #297fb9fc;
+  display: inline-block;
+  color: white;
+  padding: 2px 20px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.about-tour-col .distance {
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.about-tour-col h2 {
+  padding-top: 0;
+}
+.about-tour-col p {
+  padding: 15px 0 25px;
+  color: #414141;
+}
+
+.content-image {
+  flex-basis: 50%;
+}
+.about-tour-col img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.overnight {
+  display: flex;
+  align-items: center;
+}
+
+.overnight p {
+  margin: 0;
+  padding: 0;
+}
+
+.overnight .fa {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  .sub-header {
+    background-position: center;
+  }
+
+  .sub-header h1 {
+    margin-top: 150px;
+  }
+}

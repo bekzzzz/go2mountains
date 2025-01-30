@@ -1,0 +1,68 @@
+.wheather-section {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  padding-top: 200px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.wheather-text h2 {
+  font-size: 32px;
+  color: rgb(68, 67, 67);
+  line-height: 58px;
+  padding-bottom: 15px;
+}
+
+.wheather-text p {
+  font-family: Lato;
+  font-size: 18px;
+  color: rgb(68, 67, 67);
+  line-height: 1.6;
+  width: 100%;
+}
+
+.wheather-text-t {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.wheather-text-t p {
+  opacity: 1 !important;
+}
+
+@media (max-width: 480px) {
+  .wheather-section {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 360px;
+  }
+
+  .wheather-text h2 {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+
+  .wheather-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wheather-section {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .wheather-text h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .wheather-text p {
+    font-size: 16px;
+  }
+}

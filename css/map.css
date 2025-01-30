@@ -1,0 +1,164 @@
+.map-section {
+  width: 100vw;
+  height: 115vh;
+  background-color: white;
+  margin-top: 1000px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 32px;
+  color: rgb(68, 67, 67);
+  line-height: 58px;
+  padding-top: 100px;
+}
+
+.map-section p {
+  width: 40%;
+  text-align: center;
+}
+
+.map-row {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  position: relative;
+}
+
+.map-text-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-cal img {
+  width: 80%;
+  margin: auto;
+}
+
+.map-text p {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(68, 67, 67);
+  line-height: 1.6;
+  width: 50%;
+  font-size: 18px;
+}
+
+.button-map {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.google-btn {
+  background-color: white;
+  color: rgb(103, 103, 103);
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.google-map-link {
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .map-section {
+    margin-top: 500px;
+  }
+
+  .map-row {
+    width: 100%;
+    margin: auto;
+  }
+
+  .map-cal {
+    margin: auto;
+    display: block;
+  }
+
+  .map-text h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .map-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .map-text-p p {
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .map-text {
+    padding-left: 0px;
+  }
+
+  .map-text-p p {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-section {
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    height: 150vh;
+  }
+
+  .map-row {
+    flex-direction: column;
+  }
+
+  .map-img {
+    order: 2;
+  }
+
+  .map-text {
+    order: 1;
+  }
+
+  .map-cal {
+    width: 100%;
+    height: 90%;
+  }
+
+  .map-text h2 {
+    font-size: 24px;
+  }
+
+  .map-cal img {
+    object-fit: cover;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .map-section {
+    padding-top: 10px;
+  }
+  .map-row {
+    flex-direction: row;
+  }
+
+  .map-img {
+    order: 1;
+  }
+
+  .map-text {
+    order: 2;
+    margin-bottom: 100px;
+  }
+}
