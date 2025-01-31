@@ -124,6 +124,9 @@ nav .fa {
   color: #ffffff;
 }
 
+@media (max-width: 480px) {
+}
+
 @media (max-width: 700px) {
   .nav-links ul li {
     display: block;
@@ -234,7 +237,7 @@ nav .fa {
 
 @media (max-width: 480px) {
   .text-box h1 {
-    font-size: 28px !important;
+    font-size: 28px;
   }
 
   .text-box p {
@@ -267,17 +270,14 @@ nav .fa {
     height: 50%;
   }
 
+  /*
   .text-box h1 {
     font-size: 2rem;
-  }
+  } */
 
   .text-box p {
     font-size: 16px;
     line-height: 1.6;
-  }
-
-  .mini-secrioption-cal h2 {
-    font-size: 28px !important;
   }
 
   .mini-secrioption-cal {

@@ -64,4 +64,8 @@
   .row {
     flex-direction: column;
   }
+
+  .our-partners-description {
+    width: 100%;
+  }
 }

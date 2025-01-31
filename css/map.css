@@ -108,6 +108,10 @@
   .map-text-p p {
     width: 55%;
   }
+
+  .google-map-link {
+    padding-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {

@@ -174,7 +174,7 @@ svg {
 
 @media only screen and (max-width: 550px) {
   .itinerary-row {
-    width: 110%;
+    width: 100%;
   }
 
   .itinerary {
@@ -185,6 +185,7 @@ svg {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    padding-top: 0px;
   }
 
   .price-include {
