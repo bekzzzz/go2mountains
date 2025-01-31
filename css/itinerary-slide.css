@@ -217,11 +217,14 @@ svg {
   }
 
   .about-tour-col p {
-    font-size: 16px;
+    font-size: 14px;
     padding: 15px 0 25px;
     color: #505050;
     align-items: center;
   }
+}
+
+@media (max-width: 480px) {
 }
 
 /*----tour ----*/

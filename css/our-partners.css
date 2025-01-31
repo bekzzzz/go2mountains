@@ -69,3 +69,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .our-partners h1 {
+    font-size: 24px;
+  }
+
+  .our-partners-description {
+    font-size: 16px;
+  }
+}

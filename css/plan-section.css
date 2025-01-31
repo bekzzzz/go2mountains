@@ -52,9 +52,7 @@
 
 @media (max-width: 480px) {
   .plan-content {
-    width: 70% !important;
-    background-size: cover;
-    background-position: center;
+    width: 90%;
   }
 
   .plan-column {
@@ -75,6 +73,7 @@
     width: 90%;
     margin-bottom: 10px;
     margin-left: 10%;
+    font-size: 24px;
   }
 
   .plan-column p {
@@ -94,7 +93,7 @@
 
 @media screen and (max-width: 768px) {
   .plan-content {
-    width: 70% !important;
+    width: 80%;
     background-size: cover;
     background-position: center;
   }
@@ -117,7 +116,7 @@
     width: 90%;
     margin-bottom: 10px;
     margin-left: 10%;
-    font-size: 28px !important;
+    font-size: 28px;
   }
 
   .plan-column p {

@@ -127,10 +127,7 @@ button {
 @media (max-width: 480px) {
   .accommodation-title {
     height: 50%;
-  }
-
-  .accommodation-text p {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .slide {
@@ -140,6 +137,10 @@ button {
 
   .accommodation-text h2 {
     font-size: 24px;
+  }
+
+  .accommodation-text p {
+    width: 80%;
   }
 
   .accommodation-text {
@@ -154,18 +155,25 @@ button {
   .text-overlay {
     font-size: 14px !important;
     top: 5%;
-    left: 50%;
+    left: 55%;
     transform: translateX(-50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   .text-overlay p {
-    line-height: 1.5;
+    opacity: 0;
   }
 
   button {
     font-size: 18px;
     background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .accommodation-title {
+    height: 50%;
+    margin-bottom: 30px;
   }
 }
 

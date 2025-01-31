@@ -124,9 +124,6 @@ nav .fa {
   color: #ffffff;
 }
 
-@media (max-width: 480px) {
-}
-
 @media (max-width: 700px) {
   .nav-links ul li {
     display: block;
@@ -237,7 +234,7 @@ nav .fa {
 
 @media (max-width: 480px) {
   .text-box h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .text-box p {

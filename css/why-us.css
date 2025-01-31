@@ -51,6 +51,10 @@
 }
 
 @media (max-width: 480px) {
+  .section-title {
+    margin-bottom: 0px;
+  }
+
   .why-us-row h2 {
     font-size: 28px;
   }
@@ -62,6 +66,7 @@
 
   .feature p {
     width: 100% !important;
+    font-size: 14px;
   }
 }
 
