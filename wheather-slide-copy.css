@@ -1,5 +1,4 @@
 .wheather-slide {
-  position: absolute;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -7,6 +6,11 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin-bottom: 200px;
+}
+
+.wheather-slide {
+  overflow: hidden;
 }
 
 .container {
@@ -21,10 +25,12 @@
 }
 
 .slider {
+  max-width: 100%;
   position: absolute;
   inset: 80px 200px 80px 80px;
   background-color: #ccc;
   border-radius: 20px;
+  touch-action: pan-y;
 }
 
 .slider .slides {

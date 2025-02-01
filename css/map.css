@@ -1,198 +1,107 @@
-.map-section {
-  width: 100vw;
-  height: 1000px;
-  background-color: white;
-  margin-top: 900px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-.map-section h2 {
-  font-size: 32px;
-  color: rgb(68, 67, 67);
-  line-height: 58px;
-  padding-top: 100px;
-}
-
-.map-section p {
-  width: 40%;
-  text-align: center;
-}
-
-.map-row {
+.map-section-container {
+  padding: 20px;
+  margin: 40px auto;
   width: 80%;
-  margin: auto;
-  align-items: center;
   position: relative;
 }
 
-.map-text-p {
-  display: flex;
+.map-row {
+  width: 70%;
   align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.map-cal img {
+.map-row p {
   width: 80%;
-  margin: auto;
+  margin-bottom: 15px;
+}
+
+.map-section-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.google-map {
+  margin-bottom: 30px;
+}
+
+.map-text {
+  margin-bottom: 20px;
 }
 
 .map-text p {
-  font-family: Lato;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(68, 67, 67);
-  line-height: 1.6;
-  width: 50%;
-  font-size: 18px;
-}
-
-.button-map {
-  margin-top: 50px;
-  text-align: left;
-}
-
-.google-btn {
-  background-color: white;
-  color: rgb(103, 103, 103);
-  border: 2px solid #e7e7e7;
-  border-radius: 10px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .google-map-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.google-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
   border: none;
-  color: white;
-  padding: 10px 28px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
-  .map-section {
-    margin-top: 700px;
-    padding-bottom: 200px;
-    height: 100vh;
-  }
-
-  .map-row {
-    width: 100%;
-    margin: auto;
-  }
-
-  .google-map {
-    position: absolute;
-    margin-top: 120px;
-    top: 40%;
-    left: 21%;
-  }
-
-  .map-img img {
-    margin-top: 150px;
-  }
-
-  .map-cal {
-    margin: auto;
-    display: block;
-  }
-
-  .map-text h2 {
-    font-size: 24px;
-    line-height: 1.3;
-  }
-
-  .map-text p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-
-  .map-text {
-    padding-left: 0px;
-  }
-
-  .map-text-p p {
-    width: 55%;
-
-    margin-bottom: 15px;
-    text-align: left;
-    padding-top: 10px;
-  }
-
-  .google-map-link {
-    padding: 5px 0px;
-  }
+.google-btn:hover {
+  background-color: #3e8e41;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-  .map-section {
-    flex-direction: column;
-    padding-top: 0px;
-    margin-bottom: 300px;
-    height: 150vh;
-    margin-top: 800px;
-  }
-
-  .google-map {
-    top: 40%;
-  }
-
-  .map-img img {
-    margin-top: 170px;
-  }
+.map-image {
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .map-section {
-    flex-direction: column;
-    padding-top: 0px;
-    padding-bottom: 300px;
-    height: 100vh;
-  }
+.map-image img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
 
-  .map-row {
-    flex-direction: column;
-  }
+/* Small Phones (up to iPhone SE) */
+@media only screen and (max-width: 320px) {
+  /* Styles for very small devices */
+}
 
-  .map-img {
-    order: 2;
-  }
-
-  .map-text {
-    order: 1;
-  }
-
-  .map-cal {
-    width: 100%;
-    height: 70%;
-  }
-
-  .map-text h2 {
-    font-size: 24px;
-  }
-
-  .map-cal img {
-    object-fit: cover;
+/* Medium Phones (iPhone 6, 7, 8, X, 11, 12, 13, 14) */
+@media only screen and (max-width: 414px) {
+  .map-section-container {
+    position: relative;
     width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+  }
+
+  .map-row {
+    width: 100%;
+  }
+
+  .map-image {
+    text-align: center;
+  }
+
+  .map-image img {
+    width: 100%;
+    margin: auto;
   }
 }
 
-@media (min-width: 1280px) {
-  .map-section {
-    padding-top: 10px;
-  }
-  .map-row {
-    flex-direction: row;
-  }
-
-  .map-img {
-    order: 1;
-  }
-
-  .map-text {
-    order: 2;
+/* Tablets (iPads, larger phones in landscape mode) */
+@media only screen and (max-width: 768px) {
+  .map-section-container {
+    margin: 0px auto;
     margin-bottom: 100px;
+  }
+
+  .map-row {
+    width: 100%;
   }
 }

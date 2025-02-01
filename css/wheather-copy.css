@@ -2,7 +2,7 @@
   width: 70%;
   margin: auto;
   height: auto;
-  padding-top: 200px;
+  padding-top: 150px;
   background-color: white;
   align-items: center;
   justify-content: center;
@@ -37,9 +37,9 @@
 @media (max-width: 480px) {
   .wheather-section {
     width: 100%;
-    height: 100%;
-    padding-bottom: 360px;
-    padding-top: 100px;
+    height: 70%;
+    padding-top: 150px;
+    margin-bottom: 100px;
   }
 
   .wheather-text p {
@@ -59,9 +59,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .wheather-section {
-    width: 100%;
+    width: 90%;
     height: 400px;
     margin-bottom: 30px;
   }

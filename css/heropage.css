@@ -2,6 +2,10 @@
 
 /* Decription images third page css in the overnight */
 
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +14,10 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  /*
-  background-image: url(/images/images/homepage-img.jpg);
-  */
   background-image: url(../images/images/homepage-img.jpg);
-
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -233,6 +234,11 @@ nav .fa {
 }
 
 @media (max-width: 480px) {
+  .header {
+    min-height: 70vh;
+    width: 100%;
+  }
+
   .text-box h1 {
     font-size: 24px;
   }

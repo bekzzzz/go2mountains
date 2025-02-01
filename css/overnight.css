@@ -31,6 +31,10 @@
   background-color: black;
 }
 
+.overnight-hotels {
+  overflow: hidden;
+}
+
 button {
   background-color: white;
   border: none;
@@ -56,9 +60,11 @@ button {
 } */
 
 .overnight-slider {
+  max-width: 100%;
   display: flex;
   transition: transform 0.8s ease-in-out;
   will-change: transform;
+  touch-action: pan-y;
 }
 
 .slide {
