@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .start-plan {
   margin: 0;
   padding: 0;
@@ -52,7 +56,10 @@
 
 @media (max-width: 480px) {
   .plan-content {
-    width: 90%;
+    width: 80%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
   }
 
   .plan-column {
@@ -83,7 +90,9 @@
   }
 
   .plan-btn {
-    left: 40%;
+    width: 100%;
+    left: 50%;
+    top: 80%;
   }
 
   .plan-column p {
@@ -91,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .plan-content {
     width: 80%;
     background-size: cover;
@@ -126,7 +135,8 @@
   }
 
   .plan-btn {
-    left: 27%;
+    width: 100%;
+    left: 50%;
     top: 80%;
   }
 

@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+body {
+  overflow-y: auto;
+}
+
 .testimonial-container {
   height: 100vh;
   width: 100%;

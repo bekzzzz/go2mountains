@@ -1,6 +1,10 @@
+body {
+  overflow-y: auto;
+}
+
 .map-section-container {
   padding: 20px;
-  margin: 40px auto;
+  margin: 200px auto;
   width: 80%;
   position: relative;
 }
@@ -77,7 +81,7 @@
     width: 90%;
     padding: 20px;
     margin: 0px auto;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 
   .map-row {
@@ -86,6 +90,10 @@
 
   .map-image {
     text-align: center;
+  }
+
+  .map-row p {
+    width: 100%;
   }
 
   .map-image img {

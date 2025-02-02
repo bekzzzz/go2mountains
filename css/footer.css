@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .footer-test {
   background-color: #333;
   color: #fff;
@@ -67,7 +71,7 @@
 
 @media (max-width: 480px) {
   .col-md-4 p {
-    width: 250px;
+    width: 300px;
   }
 
   .footer-test .social-links {
@@ -86,6 +90,10 @@
 }
 
 @media (max-width: 768px) {
+  .col-md-4 p {
+    width: 300px;
+  }
+
   .footer-test .social-links {
     margin-top: 50px;
     margin-bottom: 50px;

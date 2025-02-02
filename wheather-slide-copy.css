@@ -151,6 +151,14 @@
 }
 
 @media (max-width: 480px) {
+  .wheather-slide {
+    margin-bottom: 150px;
+  }
+
+  .container {
+    height: 90vh;
+  }
+
   .content h2 {
     font-size: 28px;
     color: #fff;
@@ -158,7 +166,7 @@
   }
 
   .content span {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
 
   .content p {

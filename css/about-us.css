@@ -4,6 +4,11 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+body {
+  overflow-y: auto;
+}
+
 :root {
   --primary-color: #fa7436;
   --primary-color-dark-orange: #f05323;

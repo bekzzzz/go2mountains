@@ -1,5 +1,9 @@
 /*---------------------------- Itinary ----------------------------*/
 
+body {
+  overflow-y: auto;
+}
+
 .itinerary {
   min-height: 750px;
   width: 80%;
@@ -115,7 +119,7 @@ svg {
   margin-right: 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .itinerary {
     min-height: 80vh;
     width: 90%;
@@ -128,7 +132,7 @@ svg {
 
   .itinerary-row {
     background-color: #fff0e5;
-    padding: 50px;
+
     border-radius: 15px;
   }
 

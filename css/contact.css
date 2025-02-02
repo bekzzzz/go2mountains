@@ -1,4 +1,7 @@
 /*---------------------------- contact ----------------------------*/
+body {
+  overflow-y: auto;
+}
 
 .contact-section {
   background-color: #f2e5d7;

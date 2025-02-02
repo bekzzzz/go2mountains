@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .horizontal-scroll-bar {
   margin: 0px;
   padding: 0px;

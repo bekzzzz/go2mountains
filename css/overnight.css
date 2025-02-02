@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .accommodation-title {
   height: 60%;
   text-align: center;
@@ -177,9 +181,22 @@ button {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .accommodation-text p {
+    width: 100%;
+    margin: auto;
+  }
+
   .accommodation-title {
     height: 50%;
     margin-bottom: 30px;
+  }
+
+  .text-overlay {
+    font-size: 14px !important;
+    top: 5%;
+    left: 55%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
 }
 
