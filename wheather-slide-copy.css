@@ -9,6 +9,12 @@
   margin-bottom: 200px;
 }
 
+.weather-slide {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
 .wheather-slide {
   overflow: hidden;
 }

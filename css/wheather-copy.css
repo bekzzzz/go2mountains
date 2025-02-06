@@ -41,8 +41,8 @@ body {
 @media (max-width: 480px) {
   .wheather-section {
     width: 100%;
-    height: 70%;
-    padding-top: 100px;
+    height: 50%;
+    padding-top: 150px;
     margin-bottom: 30px;
   }
 
@@ -72,5 +72,13 @@ body {
 
   .wheather-text p {
     font-size: 16px;
+  }
+
+  .wheather-text-t {
+    opacity: 0;
+  }
+
+  .wheather-text-t p {
+    opacity: 0;
   }
 }
