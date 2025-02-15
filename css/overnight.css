@@ -131,6 +131,10 @@ button {
 }
 
 @media (max-width: 480px) {
+  .overnight-hotels {
+    opacity: 0;
+  }
+
   .accommodation-title {
     height: 50%;
     margin-bottom: 30px;

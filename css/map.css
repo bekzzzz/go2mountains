@@ -5,11 +5,11 @@ body {
 .map-section-container {
   padding: 20px;
   margin: 200px auto;
-  width: 80%;
+  width: 90%;
   position: relative;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  width: 100%;
+
   height: 100%;
 }
 
@@ -73,12 +73,6 @@ body {
   border-radius: 10px;
 }
 
-/* Small Phones (up to iPhone SE) */
-@media only screen and (max-width: 320px) {
-  /* Styles for very small devices */
-}
-
-/* Medium Phones (iPhone 6, 7, 8, X, 11, 12, 13, 14) */
 @media only screen and (max-width: 414px) {
   .map-section-container {
     position: relative;
