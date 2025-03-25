@@ -25,6 +25,14 @@ body {
   overflow: hidden;
 }
 
+.testimonial h2 {
+  font-size: 32px;
+}
+
+.section-title-test {
+  text-align: center;
+}
+
 .testimonial .testimonial-img {
   height: 170px;
   width: 170px;

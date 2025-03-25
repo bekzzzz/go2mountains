@@ -1,16 +1,5 @@
-body {
-  -webkit-overflow-scrolling: touch;
-}
-
 .map-section-container {
-  padding: 20px;
-  margin: 200px auto;
-  width: 90%;
-  position: relative;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-
-  height: 100%;
+  margin-bottom: 100px;
 }
 
 .map-row {
@@ -68,7 +57,7 @@ body {
 }
 
 .map-image img {
-  width: 90%;
+  width: 80%;
   height: auto;
   border-radius: 10px;
 }

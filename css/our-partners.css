@@ -6,6 +6,7 @@ body {
 
 .our-partners-section {
   background-color: #fff;
+  display: none;
 }
 
 .our-partners {
