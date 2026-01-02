@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="bek-ruby-logo/bek-ruby-title-logo-2.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>跟著我們探索吉爾吉斯</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/des-link.css" />
+    <link rel="stylesheet" href="css/overnights.css" />
+    <link rel="stylesheet" href="css/welcome-uz.css" />
+    <link rel="stylesheet" href="css/testimonial.css" />
+    <link rel="stylesheet" href="css/check-small-tours.css" />
+    <link rel="stylesheet" href="css/goo-tes-review.css" />
+    <link rel="stylesheet" href="css/weather-slide.css" />
+
+    <link rel="stylesheet" href="css/blog-page.css" />
+    <link rel="stylesheet" href="css/index-responsive.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <!---------- top-bar icon  ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!---------- Slider testemonial  ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script defer src="testimonial.js"></script>
+  </head>
+  <body>
+    <!-- Top Info Bar -->
+
+    <header class="header">
+      <div class="header-inner">
+        <nav>
+          <div class="logo-wrapper">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                class="head-ruby-logo"
+                src="assets/bek-ruby-logo/white-bek-ruby.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+          </div>
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+              <li>
+                <a href="index.html#tours" data-i18n="nav_tours">Tours</a>
+              </li>
+
+              <li><a href="blog.html" data-i18n="nav_stories">Stories</a></li>
+
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@bek_ruby"
+                  data-i18n="nav_youtube"
+                  >Youtube</a
+                >
+              </li>
+              <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
+              <li>
+                <a
+                  href="https://kyrgyzstan-tour.notion.site/Bek-Ruby-QA-156e583a17c180a991f8ee8a7355b936?pvs=149"
+                  data-i18n="footer_nav_faq"
+                  >Q&amp;A</a
+                >
+              </li>
+              <!-- <li><a href="visa.html" data-i18n="nav_visa"> Visa</a></li>d -->
+              <li class="nav-lang">
+                <a
+                  href="#"
+                  class="nav-lang__btn"
+                  aria-label="Switch language"
+                  data-i18n="nav_lang_label"
+                >
+                  EN / 中文
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header img descriotion -->
+    <div class="overnight-hotels">
+      <section class="black-divider"></section>
+      <button class="prev-button">❮</button>
+      <div class="slider-wrapper slider-wrapper-2">
+        <div class="overnight-slider">
+          <div class="slide slide-1">
+            <div class="slide-img slide-img-2">
+              <img src="assets/hero-img/Frame 7.jpg" alt="Overnight Kemin" />
+              <div class="text-overlay text-overlay-2">
+                <h1 data-i18n="hero_slide1">Where Tradition Still Lives</h1>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-2">
+            <div class="slide-img slide-img-2">
+              <img src="assets/hero-img/Frame 13.jpg" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h1 data-i18n="hero_slide2">Nomadic Life</h1>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-3">
+            <div class="slide-img slide-img-2">
+              <img src="assets/hero-img/Frame 3.jpg" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h1 data-i18n="hero_slide3">Epic landscape</h1>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-4">
+            <div class="slide-img slide-img-2">
+              <img src="assets/hero-img/Frame 8.jpg" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h1 data-i18n="hero_slide4">Where Horses Roam Free</h1>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-4">
+            <div class="slide-img slide-img-2">
+              <img src="assets/hero-img/Frame 15.jpg" alt="Overnight Son Kol" />
+              <div class="text-overlay text-overlay-2">
+                <h1 data-i18n="hero_slide5">Life, Food, and Local Stories</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="next-button">❯</button>
+    </div>
+
+    <section class="black-divider"></section>
+
+    <!-- short context section -->
+    <section class="quick-context">
+      <div class="quick-context-inner">
+        <h2 data-i18n="quick_title">Discover the Heart of Kyrgyzstan</h2>
+        <p data-i18n="quick_body">
+          Kyrgyzstan is a land of breathtaking mountains, crystal-clear lakes,
+          and timeless nomadic traditions. From high-altitude adventures to
+          quiet moments in nature, this is a journey that stays with you long
+          after you return home.
+        </p>
+      </div>
+    </section>
+
+    <!----------  tours ----------->
+
+    <section class="tours" id="tours">
+      <div class="tours__container">
+        <header class="tours__header">
+          <h2 class="tours__title" data-i18n="tours_title">Special Tours</h2>
+          <p class="tours__subtitle" data-i18n="tours_subtitle">
+            Curated journeys across Kyrgyzstan — culture, mountains, and
+            authentic local experiences.
+          </p>
+
+          <div class="tours__controls">
+            <button
+              class="chip is-active"
+              data-filter="all"
+              type="button"
+              data-i18n="tours_filter_all"
+            >
+              All
+            </button>
+            <button
+              class="chip"
+              data-filter="culture"
+              type="button"
+              data-i18n="tours_filter_culture"
+            >
+              Culture
+            </button>
+            <button
+              class="chip"
+              data-filter="adventure"
+              type="button"
+              data-i18n="tours_filter_adventure"
+            >
+              Adventure
+            </button>
+            <button
+              class="chip"
+              data-filter="nature"
+              type="button"
+              data-i18n="tours_filter_nature"
+            >
+              Nature
+            </button>
+            <button
+              class="chip"
+              data-filter="winter"
+              type="button"
+              data-i18n="tours_filter_winter"
+            >
+              Winter
+            </button>
+          </div>
+        </header>
+
+        <div class="tours__grid" id="toursGrid">
+          <!-- JS will render cards here -->
+        </div>
+
+        <div class="tours__footer">
+          <button
+            class="tours__more"
+            id="loadMoreBtn"
+            type="button"
+            data-i18n="tours_load_more"
+          >
+            Load more
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!---------- wheather-slide ----------->
+
+    <section class="wheather-slide">
+      <div class="weather-header">
+        <p class="weather-kicker" data-i18n="weather_kicker">
+          Seasons at a Glance
+        </p>
+        <h2 class="weather-title" data-i18n="weather_title">
+          Kyrgyzstan Through the Year
+        </h2>
+        <p class="weather-subtitle" data-i18n="weather_subtitle">
+          Pick a season to see what it feels like in the mountains, valleys, and
+          lakes.
+        </p>
+      </div>
+      <div class="container">
+        <div class="slider">
+          <div class="slides" style="--img: url('assets/images/nooryz.jpg')">
+            <img
+              class="slide-photo"
+              src="assets/images/weather-img/spring.jpg"
+              alt="Spring in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="content">
+              <h2 data-i18n="weather_spring_title">
+                Spring<br />
+                <span>(March - May)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p data-i18n="weather_spring_body">
+                  The countryside comes alive with wildflowers, poppy fields,
+                  and fresh greenery, perfect for low-elevation hikes and
+                  enjoying nature's awakening.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="slides"
+            style="--img: url('assets/images/7-days-tour.jpg')"
+          >
+            <img
+              class="slide-photo"
+              src="assets/images/weather-img/summer.jpg"
+              alt="Summer in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="content">
+              <h2 data-i18n="weather_summer_title">
+                Summer<span> <br />(June - August)</span>
+              </h2>
+
+              <div class="wheather-text-t">
+                <p data-i18n="weather_summer_body">
+                  It's the perfect season for outdoor adventures: trek open
+                  mountain trails, visit sunlit alpine lakes like Issyk-Kul, and
+                  stay in yurt camps for a nomadic experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="slides"
+            style="--img: url('assets/images/autmn-tours.jpg')"
+          >
+            <img
+              class="slide-photo"
+              src="assets/images/weather-img/autumn.jpg"
+              alt="Autumn in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="content">
+              <h2 data-i18n="weather_autumn_title">
+                Autumn <span> <br />(September - November)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p data-i18n="weather_autumn_body">
+                  Golden and crimson landscapes, cooler weather, and stunning
+                  valleys make it ideal for exploring and photography.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slides" style="--img: url('assets/images/pamir.png')">
+            <img
+              class="slide-photo"
+              src="assets/images/weather-img/4.jpg"
+              alt="Winter in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="content">
+              <h2 data-i18n="weather_winter_title">
+                Winter<span> <br />(December - February)</span>
+              </h2>
+              <div class="wheather-text-t">
+                <p data-i18n="weather_winter_body">
+                  A snowy wonderland awaits with skiing, snowboarding, hot
+                  springs, and peaceful mountain serenity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <span class="prev"></span>
+          <span class="next"></span>
+        </div>
+      </div>
+    </section>
+
+    <!---------- About Us  ----------->
+    <section class="about-us-section">
+      <div class="about-us">
+        <div class="about-left">
+          <img loading="lazy" src="assets/thumbnail/about-us.BR.jpg" alt="" />
+        </div>
+        <div class="about-right">
+          <h1 data-i18n="about_title">我們的故事</h1>
+
+          <p data-i18n="about_body">
+            Inspired by mountains, nomadic traditions, and simple living, we
+            create and share real stories from Kyrgyzstan. Rooted in family,
+            seasonal nomadic life, and honest experiences, our journey is about
+            showing a place worth exploring — beyond the usual routes.
+          </p>
+
+          <div class="about-us-btn">
+            <a class="about-us-btn-email" href="about-us.html"
+              ><span data-i18n="about_read_more">Read More</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Testimonial section  ----------->
+
+    <!---------- Google Testimonial section  ----------->
+
+    <section class="google-reviews-section">
+      <div class="google-reviews-inner">
+        <header class="google-reviews-header">
+          <h2 data-i18n="google_title">What travelers say</h2>
+          <p data-i18n="google_subtitle">Based on real reviews from Google</p>
+        </header>
+
+        <div class="google-reviews-grid" id="googleReviewsTrack">
+          <article class="google-review-card">
+            <div class="review-meta">
+              <div class="review-avatar">G</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p
+              class="review-text"
+              data-full-en="Before this trip, I honestly knew almost nothing about Kyrgyzstan (basically did no research at all).
+              I joined mainly because of a simple thought: “If I don’t go with my friends this time, I’ll probably never come to this place in my lifetime.”
+              Before departure, I kept imagining I was heading to a very underdeveloped and even scary country. I worried about altitude sickness, getting sick, and all kinds of unknowns. I joined the trip completely out of courage, pushing myself forward despite the fear.
+              After arriving, there were indeed many unexpected situations — a teammate’s suitcase was damaged by the airline, there was no hot water for showers, and some of us even got gastroenteritis.
+              But the breathtaking natural scenery of Kyrgyzstan, the kindness and warmth of the local people, and the chance to witness a country in the middle of its development were all incredibly fascinating. These experiences completely broke my stereotypes and made me fall in love with this country.
+              A huge thank you to Ruby for her thoughtful planning, to Xiao Wu for his passionate and attentive service, to our driver for his professional skills, and to Bek’s mom for the generous and delicious home-cooked dinner.
+              I truly hope we will meet again on this beautiful land. 💛"
+              data-full-zh="其實出發之前我完全不了解吉爾吉斯這個國家（俗稱沒有做功課），只是衝著一種「不跟朋友一起去的話，一輩子我都不會去這地方」的想法，出發之前一直覺得會到一個很落後很可怕的地方，擔心高山症擔心生病，完全是硬著頭皮參加這次旅行。
+              抵達之後雖然也是發生很多意外（團員的行李箱被航空公司摔壞、洗澡沒熱水、腸胃炎），但吉爾吉斯大自然美麗的風光、當地人民的友善熱情以及見證一個國家發展中的歷程，種種都非常有趣，打破我原本的刻板印象，讓我愛上這個國家！
+              非常謝謝Ruby用心的安排，小五熱忱的服務，司機大哥專業的技術，貝殼媽媽家豐盛美味的晚餐，希望還有機會在這片土地上相見
+              ❤️ "
+            ></p>
+            <div class="review-author">
+              龔小鈞 · Taiwan
+              <button class="review-read-more" type="button">Read more</button>
+            </div>
+          </article>
+
+          <article class="google-review-card">
+            <div class="review-meta">
+              <div class="review-avatar">L</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p
+              class="review-text"
+              data-full-en="I loved Central Asia’s “Little Switzerland,” the Japanese-style wooden houses, and the food (probably my ten-year quota of cilantro and sweet green peppers 😄).
+                I loved the eagle show, horseback riding, staying in a Kyrgyz yurt, Son-Kul, and boating on Issyk-Kul — honestly, too many favorites to count.
+
+                Bek’s mom’s dinner was absolutely my favorite. I especially loved connecting with local people and experiencing this kind of cultural exchange. ❤️"
+              data-full-zh="中亞小瑞士喜歡，日本人的木屋喜歡，食物也喜歡（這大概是我10年分的香菜和甜椒青椒）。
+                      老鷹表演喜歡，騎馬喜歡，住吉爾吉斯包喜歡，頌湖喜歡，伊賽克湖遊湖喜歡……太多了～
+                      Bek媽媽的晚宴超級超級超級喜歡（最喜歡跟當地人交流，也很喜歡這樣的表演和文化交流），手比愛心～"
+            ></p>
+            <div class="review-author">
+              林宥萱 · Taiwan
+              <button class="review-read-more" type="button">Read more</button>
+            </div>
+          </article>
+
+          <article class="google-review-card">
+            <div class="review-meta">
+              <div class="review-avatar">w</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p
+              class="review-text"
+              data-full-en="The horseback riding and staying in a Kyrgyz yurt were truly unforgettable. The scenery changed constantly within just two hours, making it a very rich experience. There were also many places without internet — which was surprisingly satisfying 🤭"
+              data-full-zh="騎馬與吉爾吉斯包的體驗令人永生難忘，兩小時內的景致就有不同的變化，是個很豐富的體驗。另沒有網路的地方很多，也令人滿意🤭"
+            ></p>
+            <div class="review-author">
+              吳蕙如 · Taiwan
+              <button class="review-read-more" type="button">Read more</button>
+            </div>
+          </article>
+
+          <article class="google-review-card">
+            <div class="review-meta">
+              <div class="review-avatar">C</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p
+              class="review-text"
+              data-full-en="Ever since I saw a photographer share videos of Kyrgyzstan on Instagram, this country has held a special place in my heart. After visiting in person, I realized that it’s not only beautiful, but the people are also incredibly friendly and warm. Being here, I felt a deep sense of happiness."
+              data-full-zh=" 自從在IG上看到一位攝影師分享的吉爾吉斯影片，這個國家在我心裡就有著特別的印象，實際走訪當地，這裡不只風景美麗，人也很友善熱情，在這裡感受到滿滿的幸福感"
+            ></p>
+            <div class="review-author">
+              Carina · Taiwan
+              <button class="review-read-more" type="button">Read more</button>
+            </div>
+          </article>
+
+          <article class="google-review-card">
+            <div class="review-meta">
+              <div class="review-avatar">L</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p
+              class="review-text"
+              data-full-en="It was a very special trip — the scenery in Kyrgyzstan is truly beautiful."
+              data-full-zh="很特別的一趟旅遊，吉爾吉斯景色真的很美"
+            >
+              Kyrgyzstan was completely new to us, but everything was smooth,
+              thoughtful, and beautifully paced.
+            </p>
+            <div class="review-author">
+              LI PEI LIN· Taiwan
+              <button class="review-read-more" type="button">Read more</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="google-reviews-controls">
+          <button
+            class="review-scroll-btn"
+            type="button"
+            data-dir="-1"
+            data-target="#googleReviewsTrack"
+            aria-label="Scroll reviews left"
+          >
+            ‹
+          </button>
+          <button
+            class="review-scroll-btn"
+            type="button"
+            data-dir="1"
+            data-target="#googleReviewsTrack"
+            aria-label="Scroll reviews right"
+          >
+            ›
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Blog page  ----------->
+    <div class="blog-page-container">
+      <h1 data-i18n="blog_latest">最新文章</h1>
+
+      <div class="blog-playlists">
+        <section class="playlist-card">
+          <div
+            class="playlist-thumb"
+            style="background-image: url('assets/blog/is-or-sk.png')"
+          ></div>
+          <div class="playlist-head">
+            <p class="playlist-tag" data-i18n="blog_playlist1_tag">行程攻略</p>
+            <h2 data-i18n="blog_playlist1_title">Travel Guides</h2>
+            <p class="playlist-desc" data-i18n="blog_playlist1_desc">
+              實用路線、季節建議與預算提示，幫你決定怎麼玩吉爾吉斯。
+            </p>
+          </div>
+          <ul class="playlist-list">
+            <li>
+              <a href="blog-article-9.html">
+                <div>
+                  <span class="playlist-date">2025/03/28</span>
+                  <h3 data-i18n="blog_playlist1_item1">
+                    伊塞克湖 vs. 頌湖：到底該去哪裡玩？
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-10.html">
+                <div>
+                  <span class="playlist-date">2025/01/15</span>
+                  <h3 data-i18n="blog_playlist1_item2">
+                    蒙古阿爾泰 vs. 吉爾吉斯：高山草原比較
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-8.html">
+                <div>
+                  <span class="playlist-date">2022/03/25</span>
+                  <h3 data-i18n="blog_playlist1_item3">
+                    來吉爾吉斯，自助還是跟團？
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="playlist-card">
+          <div
+            class="playlist-thumb"
+            style="background-image: url('assets/8day-classic-tour/boz-ui.jpg')"
+          ></div>
+          <div class="playlist-head">
+            <p class="playlist-tag" data-i18n="blog_playlist2_tag">旅人故事</p>
+            <h2 data-i18n="blog_playlist2_title">Travel Stories</h2>
+            <p class="playlist-desc" data-i18n="blog_playlist2_desc">
+              旅途中的人與景，從天山到湖畔，帶你走進我們的真實日常。
+            </p>
+          </div>
+          <ul class="playlist-list">
+            <li>
+              <a href="blog-article-7.html">
+                <div>
+                  <span class="playlist-date">2022/04/12</span>
+                  <h3 data-i18n="blog_playlist2_item1">
+                    從辦公室到天山：我的自由人生旅程
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-6.html">
+                <div>
+                  <span class="playlist-date">2022/06/28</span>
+                  <h3 data-i18n="blog_playlist2_item2">
+                    來吉爾吉斯一定要體驗的五件事
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-11.html">
+                <div>
+                  <span class="playlist-date">2022/11/12</span>
+                  <h3 data-i18n="blog_playlist2_item3">
+                    馬背上的秋色探險——高山森林騎行
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="playlist-card">
+          <div
+            class="playlist-thumb"
+            style="background-image: url('assets/guest-img/user-post-4.jpg')"
+          ></div>
+          <div class="playlist-head">
+            <p class="playlist-tag" data-i18n="blog_playlist3_tag">客座分享</p>
+            <h2 data-i18n="blog_playlist3_title">Guest Voices</h2>
+            <p class="playlist-desc" data-i18n="blog_playlist3_desc">
+              旅伴、作家與朋友們的視角，記錄他們的心動瞬間與文化觀察。
+            </p>
+          </div>
+          <ul class="playlist-list">
+            <li>
+              <a href="blog-article-3.html">
+                <div>
+                  <span class="playlist-date">2024/06/14</span>
+                  <h3 data-i18n="blog_playlist3_item1">
+                    在「中亞瑞士」體驗人生最美好的騎行
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-4.html">
+                <div>
+                  <span class="playlist-date">2024/07/14</span>
+                  <h3 data-i18n="blog_playlist3_item2">
+                    草原遊牧民族也住「蒙古包」？
+                  </h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+            <li>
+              <a href="blog-article-5.html">
+                <div>
+                  <span class="playlist-date">2024/07/09</span>
+                  <h3 data-i18n="blog_playlist3_item3">鷹獵人文化探索之旅</h3>
+                </div>
+                <span class="playlist-action">Read</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!---------- Why Choose Us  ----------->
+    <section class="why-us">
+      <div class="why-us__inner">
+        <div class="why-us__head">
+          <p class="why-us__kicker" data-i18n="why_kicker">
+            Why travel with us
+          </p>
+          <h2 data-i18n="why_title">Curated, local-first journeys</h2>
+          <p class="why-us__lede" data-i18n="why_lede">
+            Small groups, expert local guides, and experiences you won’t find on
+            a generic itinerary.
+          </p>
+          <div class="why-us__pills"></div>
+        </div>
+        <div class="why-us__grid">
+          <article class="why-us__card">
+            <div class="why-us__icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h3 data-i18n="why_item1_title">Local insight</h3>
+            <p data-i18n="why_item1_body">
+              Born-and-raised guides who open doors to real Kyrgyz culture.
+            </p>
+          </article>
+          <article class="why-us__card">
+            <div class="why-us__icon">
+              <i class="fa-solid fa-hands-holding"></i>
+            </div>
+            <h3 data-i18n="why_item2_title">Guest care</h3>
+            <p data-i18n="why_item2_body">
+              From visas to dietary needs, we handle the details before you
+              land.
+            </p>
+          </article>
+          <article class="why-us__card">
+            <div class="why-us__icon">
+              <i class="fa-solid fa-binoculars"></i>
+            </div>
+            <h3 data-i18n="why_item3_title">Slow travel</h3>
+            <p data-i18n="why_item3_body">
+              Fewer stops, more time to breathe in mountains, lakes, and yurt
+              life.
+            </p>
+          </article>
+          <article class="why-us__card">
+            <div class="why-us__icon">
+              <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <h3 data-i18n="why_item4_title">Safe & flexible</h3>
+            <p data-i18n="why_item4_body">
+              Well-vetted partners, modern vehicles, and backup plans for
+              weather days.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Gallery ----------->
+    <section class="gallery">
+      <div class="gallery__head">
+        <p class="gallery__kicker">Gallery</p>
+        <h2 data-i18n="gallery_title">Moments from Kyrgyzstan</h2>
+      </div>
+      <div class="gallery__shell">
+        <div class="gallery__controls">
+          <button
+            class="gallery__btn"
+            type="button"
+            data-dir="-1"
+            data-target="#galleryRail"
+            aria-label="Previous photo"
+          >
+            ‹
+          </button>
+          <button
+            class="gallery__btn"
+            type="button"
+            data-dir="1"
+            data-target="#galleryRail"
+            aria-label="Next photo"
+          >
+            ›
+          </button>
+        </div>
+        <div class="gallery__rail" id="galleryRail" aria-label="Photo gallery">
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-yurt-1.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_1922.jpeg"
+              alt="Eagle hunter on horseback"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_2402.jpeg"
+              alt="Eagle hunter on horseback"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-horse.jpg"
+              alt="Eagle hunter on horseback"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-jetioguz.jpg"
+              alt="Mountains reflected in a lake"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_2386.jpeg"
+              alt="Mountains reflected in a lake"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_1868.jpeg"
+              alt="Sunset over Kyrgyz plains"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-lake-1.jpg"
+              alt="Sunset over Kyrgyz plains"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-lake.jpg"
+              alt="Nomads riding across grasslands"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-offroad.jpg"
+              alt="Yurt camp in golden hour light"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-son-kol-2.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_1938.jpeg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-son-kol-3.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_2395.jpeg"
+              alt="Sunset over Kyrgyz plains"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-son-kol-4.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_2118.jpeg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-son-kol-5.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/IMG_1912.jpeg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-son-kol.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="assets/images/gallery/g-star.jpg"
+              alt="High mountain pass"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Youtube ----------->
+
+    <section class="youtube-grid">
+      <div class="youtube-grid__head">
+        <h2 data-i18n="youtube_title">更多影片</h2>
+        <p data-i18n="youtube_subtitle">
+          挑一支你想看的影片，直接跳到 YouTube 深入了解我們的旅程。
+        </p>
+      </div>
+      <div class="youtube-grid__list">
+        <a
+          class="youtube-card"
+          href="https://youtu.be/JSX73F880mw"
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="youtube-card__thumb"
+            style="background-image: url(/assets/thumbnail/Frame\ 25.jpg)"
+          >
+            <span class="youtube-card__play">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+          </div>
+          <div class="youtube-card__body">
+            <p class="youtube-card__meta" data-i18n="youtube_card1_meta">
+              行程攻略 · 12:40
+            </p>
+            <h3 class="youtube-card__title" data-i18n="youtube_card1_title">
+              高山、湖泊、馬背旅行全記錄
+            </h3>
+          </div>
+        </a>
+
+        <a
+          class="youtube-card"
+          href="https://youtu.be/VF0NtS1_uG8"
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="youtube-card__thumb"
+            style="
+              background-image: url('https://img.youtube.com/vi/VF0NtS1_uG8/hqdefault.jpg');
+            "
+          >
+            <span class="youtube-card__play">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+          </div>
+          <div class="youtube-card__body">
+            <p class="youtube-card__meta" data-i18n="youtube_card2_meta">
+              文化故事 · 09:55
+            </p>
+            <h3 class="youtube-card__title" data-i18n="youtube_card2_title">
+              吉爾吉斯在地人帶路的日常
+            </h3>
+          </div>
+        </a>
+
+        <a
+          class="youtube-card"
+          href="https://youtu.be/87d3KazZml0"
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="youtube-card__thumb"
+            style="background-image: url('/assets/thumbnail/backtokg.webp')"
+          >
+            <span class="youtube-card__play">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+          </div>
+          <div class="youtube-card__body">
+            <p class="youtube-card__meta" data-i18n="youtube_card3_meta">
+              頻道
+            </p>
+            <h3 class="youtube-card__title" data-i18n="youtube_card3_title">
+              更多旅程影片都在這裡
+            </h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!---------- follow us on instagram ----------->
+
+    <section class="instagram">
+      <div class="instagram-head">
+        <div>
+          <p class="instagram-kicker" data-i18n="insta_kicker">
+            Follow our journeys
+          </p>
+          <h1 data-i18n="insta_title">Instagram Reels</h1>
+          <p class="instagram-subtitle" data-i18n="insta_subtitle">
+            看看我們最新的旅途短片、幕后花絮與在地生活記錄。
+          </p>
+        </div>
+        <a
+          class="instagram-btn"
+          target="_blank"
+          rel="noopener"
+          href="https://www.instagram.com/bek_ruby/"
+          data-i18n="insta_cta"
+        >
+          <i class="fab fa-instagram"></i>
+          Visit Instagram
+        </a>
+      </div>
+
+      <div class="instagram-grid">
+        <a
+          class="instagram-card"
+          href="https://www.instagram.com/reel/DLM47DaI2n1/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="instagram-thumb"
+            style="
+              background-image: url(https://www.instagram.com/reel/DKZzJO5oFRJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==),
+                url('assets/image-itinerary/about-us/IG-1.png');
+            "
+          >
+            <span class="instagram-play"><i class="fa-solid fa-play"></i></span>
+          </div>
+          <div class="instagram-body">
+            <p class="instagram-meta" data-i18n="insta_card1_meta">
+              Reel · 0:35
+            </p>
+            <h3 data-i18n="insta_card1_title">雪山、熱茶與星空夜宿</h3>
+          </div>
+        </a>
+
+        <a
+          class="instagram-card"
+          href="https://www.instagram.com/reel/DKZzJO5oFRJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="instagram-thumb"
+            style="
+              background-image: url('assets/image-itinerary/about-us/IG-2.png');
+            "
+          >
+            <span class="instagram-play"><i class="fa-solid fa-play"></i></span>
+          </div>
+          <div class="instagram-body">
+            <p class="instagram-meta" data-i18n="insta_card2_meta">
+              Reel · 0:42
+            </p>
+            <h3 data-i18n="insta_card2_title">馬背穿越山谷的一天</h3>
+          </div>
+        </a>
+
+        <a
+          class="instagram-card"
+          href="https://www.instagram.com/reel/C32ie4ivooy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="instagram-thumb"
+            style="
+              background-image: url('assets/image-itinerary/about-us/IG-3.png');
+            "
+          >
+            <span class="instagram-play"><i class="fa-solid fa-play"></i></span>
+          </div>
+          <div class="instagram-body">
+            <p class="instagram-meta" data-i18n="insta_card3_meta">
+              Reel · 0:28
+            </p>
+            <h3 data-i18n="insta_card3_title">和在地家人一起過節</h3>
+          </div>
+        </a>
+
+        <a
+          class="instagram-card"
+          href="https://www.instagram.com/bek_ruby/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            class="instagram-thumb"
+            style="background-image: url('assets/images/insta 4 (1).png')"
+          >
+            <span class="instagram-play"><i class="fa-solid fa-play"></i></span>
+          </div>
+          <div class="instagram-body">
+            <p class="instagram-meta" data-i18n="insta_card4_meta">
+              Reel · 0:33
+            </p>
+            <h3 data-i18n="insta_card4_title">湖畔露營 · 早晨日出</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!---------- follow us on instagram ----------->
+
+    <section class="custom-tour-cta">
+      <div class="custom-tour-card">
+        <div class="custom-tour-text">
+          <p class="custom-tour-kicker" data-i18n="custom_kicker">
+            Custom trips
+          </p>
+          <h2 data-i18n="custom_title">
+            We’ll design your Kyrgyzstan tour for you
+          </h2>
+          <p class="custom-tour-desc" data-i18n="custom_desc">
+            告訴我們你的時間、興趣與預算，我們量身打造路線，安排在地體驗、住宿與交通。
+          </p>
+          <a class="custom-tour-btn" href="contact.html" data-i18n="custom_btn">
+            Start my trip plan
+          </a>
+        </div>
+        <div class="custom-tour-illustration">
+          <img
+            src="assets/hospitality/dymdama.jpg"
+            alt="Golden light over Kyrgyz mountain peaks"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!---------- Footer----------->
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                src="assets/bek-ruby-logo/bek-ruby-orange-green-2.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+            <p data-i18n="footer_about">
+              Kyrgyzstan journeys with real locals. Films, stories, and bespoke
+              trips designed for curious travelers.
+            </p>
+            <div class="footer-social">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100063753081808"
+                aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bek_ruby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@bek_ruby"
+                aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-columns">
+            <div>
+              <h4>Explore</h4>
+              <ul>
+                <li>
+                  <a href="index.html" data-i18n="footer_nav_home">Home</a>
+                </li>
+                <li>
+                  <a href="index.html#tours" data-i18n="footer_nav_tours"
+                    >Tours</a
+                  >
+                </li>
+                <li>
+                  <a href="blog.html" data-i18n="footer_nav_stories">Stories</a>
+                </li>
+                <li>
+                  <a href="about-us.html" data-i18n="footer_nav_about"
+                    >About us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Helpful</h4>
+              <ul>
+                <li>
+                  <!-- <a href="visa.html" data-i18n="footer_nav_visa">Visa</a> -->
+                </li>
+                <li>
+                  <a
+                    href="https://kyrgyzstan-tour.notion.site/Bek-Ruby-QA-156e583a17c180a991f8ee8a7355b936?pvs=149"
+                    data-i18n="footer_nav_faq"
+                    >Q&amp;A</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" data-i18n="footer_nav_contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Contact</h4>
+              <ul class="footer-contact">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> 87 Suleimanto Street,
+                  Ak-Ordo Residential Area, Leninsky District, Bishkek, Kyrgyz
+                  Republic
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@kaganvoyage.com">bekruby.kg@gmail.com</a>
+                </li>
+              </ul>
+              <a
+                class="footer-cta"
+                href="mailto:bekruby.kg@gmail.com"
+                data-i18n="footer_cta"
+                >Send email</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p data-i18n="footer_legal">
+              吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903
+            </p>
+          </div>
+          <p class="footer-copy" data-i18n="footer_copy">
+            © Bek & Ruby 2023 — All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper CSS -->
+    <script src="swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script src="question-answer.js"></script>
+    <script src="overnight-hotel.js"></script>
+    <script src="testimonial-2.js"></script>
+    <script src="check-small-tours.js"></script>
+    <script src="JS/weather-slide.js"></script>
+
+    <!-- Floating contact button -->
+    <a class="floating-contact" href="contact.html">
+      <i class="fa-regular fa-envelope"></i>
+      Contact
+    </a>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      const translations = {
+        en: {
+          hero_slide1: "Where Tradition Still Lives",
+          hero_slide2: "Nomadic Life",
+          hero_slide3: "Epic landscape",
+          hero_slide4: "Where Horses Roam Free",
+          hero_slide5: "Life, Food, and Local Stories",
+          nav_home: "Home",
+          nav_tours: "Tours",
+          nav_stories: "Stories",
+          nav_youtube: "Youtube",
+          nav_about: "About",
+          nav_visa: "Visa",
+          nav_lang_label: "EN / 中文",
+          quick_title: "Discover the Heart of Kyrgyzstan",
+          quick_body:
+            "Kyrgyzstan is a land of breathtaking mountains, crystal-clear lakes, and timeless nomadic traditions. From high-altitude adventures to quiet moments in nature, this is a journey that stays with you long after you return home.",
+          tours_title: "Special Tours",
+          tours_subtitle:
+            "Curated journeys across Kyrgyzstan — culture, mountains, and authentic local experiences.",
+          tours_filter_all: "All",
+          tours_filter_culture: "Culture",
+          tours_filter_adventure: "Adventure",
+          tours_filter_nature: "Nature",
+          tours_filter_winter: "Winter",
+          tours_load_more: "Load more",
+          weather_kicker: "Seasons at a Glance",
+          weather_title: "Kyrgyzstan Through the Year",
+          weather_subtitle:
+            "Pick a season to see what it feels like in the mountains, valleys, and lakes.",
+          weather_spring_title: "Spring (March - May)",
+          weather_spring_body:
+            "The countryside comes alive with wildflowers, poppy fields, and fresh greenery, perfect for low-elevation hikes and enjoying nature's awakening.",
+          weather_summer_title: "Summer (June - August)",
+          weather_summer_body:
+            "It's the perfect season for outdoor adventures: trek open mountain trails, visit sunlit alpine lakes like Issyk-Kul, and stay in yurt camps for a nomadic experience.",
+          weather_autumn_title: "Autumn (September - November)",
+          weather_autumn_body:
+            "Golden and crimson landscapes, cooler weather, and stunning valleys make it ideal for exploring and photography.",
+          weather_winter_title: "Winter (December - February)",
+          weather_winter_body:
+            "A snowy wonderland awaits with skiing, snowboarding, hot springs, and peaceful mountain serenity.",
+          about_title: "Our Story",
+          about_body:
+            "A boy who left the mountains, a girl who roamed the world, and a land waiting to be seen. <br> Kyrgyzstan didn’t hand us answers, but it gave us a direction—to turn inward, toward the heart, toward what’s real. <br>  We didn’t choose Kyrgyzstan; Kyrgyzstan caught us first.",
+          about_read_more: "Read More",
+          testimonials_title: "Guest Stories",
+          testimonials_subtitle: "Client Feedback",
+          google_title: "What travelers say",
+          google_subtitle: "Based on real reviews from Google",
+          blog_latest: "Latest articles",
+          blog_playlist1_tag: "Travel Guides",
+          blog_playlist1_title: "Travel Guides",
+          blog_playlist1_desc:
+            "Practical routes, seasonal tips, and budgets to help you plan Kyrgyzstan your way.",
+          blog_playlist1_item1: "Issyk-Kul vs. Song-Kol: Where should you go?",
+          blog_playlist1_item2:
+            "Mongolian Altai vs. Kyrgyzstan: High grasslands compared",
+          blog_playlist1_item3: "Kyrgyzstan: DIY or guided tour?",
+          blog_playlist2_tag: "Travel Stories",
+          blog_playlist2_title: "Travel Stories",
+          blog_playlist2_desc:
+            "People and places from the Tien Shan to the lakes—real slices of our daily life.",
+          blog_playlist2_item1:
+            "From office to Tien Shan: my journey to freedom",
+          blog_playlist2_item2: "Five must-do experiences in Kyrgyzstan",
+          blog_playlist2_item3:
+            "Autumn horseback adventure in mountain forests",
+          blog_playlist3_tag: "Guest Voices",
+          blog_playlist3_title: "Guest Voices",
+          blog_playlist3_desc:
+            "Travelers, writers, and friends share their favorite moments and cultural insights.",
+          blog_playlist3_item1: "Riding the 'Swiss Alps of Central Asia'",
+          blog_playlist3_item2: "Do steppe nomads also live in yurts?",
+          blog_playlist3_item3: "Exploring eagle hunter culture",
+          why_kicker: "Why travel with us",
+          why_title: "Curated, local-first journeys",
+          why_lede:
+            "Small groups, expert local guides, and experiences you won’t find on a generic itinerary.",
+          why_item1_title: "Local insight",
+          why_item1_body:
+            "Born-and-raised guides who open doors to real Kyrgyz culture.",
+          why_item2_title: "Guest care",
+          why_item2_body:
+            "From visas to dietary needs, we handle the details before you land.",
+          why_item3_title: "Slow travel",
+          why_item3_body:
+            "Fewer stops, more time to breathe in mountains, lakes, and yurt life.",
+          why_item4_title: "Safe & flexible",
+          why_item4_body:
+            "Well-vetted partners, modern vehicles, and backup plans for weather days.",
+          gallery_title: "Moments from Kyrgyzstan",
+          youtube_title: "More videos",
+          youtube_subtitle:
+            "Pick a video and jump to YouTube to dive deeper into our journeys.",
+          youtube_card1_meta: "18:22",
+          youtube_card1_title:
+            "Taiwanese wife’s first Central Asian winter—three prep tips and wow moments",
+          youtube_card2_meta: "09:58",
+          youtube_card2_title:
+            "From Taiwan to Kyrgyzstan to meet the in-laws: home tour + mom’s beef beshbarmak",
+          youtube_card3_meta: "16:41",
+          youtube_card3_title:
+            "Real Central Asia life: Taiwanese wife and Kyrgyz mom hosting a 12-person group",
+          insta_kicker: "Follow our journeys",
+          insta_title: "Instagram Reels",
+          insta_subtitle:
+            "Watch our latest trip clips, behind-the-scenes, and daily life here.",
+          insta_cta: "Visit Instagram",
+
+          insta_card1_title: "What our guests say",
+
+          insta_card2_title:
+            "With the most authentic Kyrgyz culture, we warmly welcome every traveler who comes from afar.",
+
+          insta_card3_title: "Have you heard of Kyrgyzstan 🇰🇬?",
+
+          custom_kicker: "Custom trips",
+          custom_title: "We’ll design your Kyrgyzstan tour for you",
+          custom_desc:
+            "Tell us your time, interests, and budget—we’ll tailor the route, stays, and local experiences.",
+          custom_btn: "Start my trip plan",
+          footer_about:
+            "Kyrgyzstan journeys with real locals. Films, stories, and bespoke trips designed for curious travelers.",
+          footer_nav_home: "Home",
+          footer_nav_tours: "Tours",
+          footer_nav_stories: "Stories",
+          footer_nav_about: "About us",
+          footer_nav_visa: "Visa",
+          footer_nav_faq: "Q&A",
+          footer_nav_contact: "Contact",
+          footer_cta: "Send email",
+          footer_legal:
+            "Kyrgyz travel agency · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — All Rights Reserved.",
+        },
+        zh: {
+          hero_slide1: "傳統仍在此延續",
+          hero_slide2: "遊牧生活",
+          hero_slide3: "史詩般的山景",
+          hero_slide4: "駿馬自在奔馳之地",
+          hero_slide5: "生活、美食與在地故事",
+          nav_home: "首頁",
+          nav_tours: "行程",
+          nav_stories: "故事",
+          nav_youtube: "YouTube",
+          nav_about: "關於我們",
+          nav_visa: "簽證",
+          nav_lang_label: "中文 / EN",
+          quick_title: "探索吉爾吉斯的心臟地帶",
+          quick_body:
+            "吉爾吉斯擁有壯麗的群山、清澈的湖泊，以及延續至今的遊牧傳統。無論是高海拔冒險或靜謐的自然時光，這趟旅程都會在你心中留下長久的餘韻。",
+          tours_title: "精選行程",
+          tours_subtitle: "精心策劃的吉爾吉斯旅程——文化、山脈與在地體驗。",
+          tours_filter_all: "全部",
+          tours_filter_culture: "文化",
+          tours_filter_adventure: "冒險",
+          tours_filter_nature: "自然",
+          tours_filter_winter: "冬季",
+          tours_load_more: "載入更多",
+          weather_kicker: "四季概覽",
+          weather_title: "一年四季的吉爾吉斯",
+          weather_subtitle: "選一個季節，看看山谷、湖泊在不同時節的模樣。",
+          weather_spring_title: "春季（3-5月）",
+          weather_spring_body:
+            "野花、罌粟田與新綠點亮山野，適合低海拔健行與享受自然甦醒。",
+          weather_summer_title: "夏季（6-8月）",
+          weather_summer_body:
+            "山徑開放、陽光湖泊、毡房體驗，是戶外冒險的最佳季節。",
+          weather_autumn_title: "秋季（9-11月）",
+          weather_autumn_body:
+            "金紅色的山谷與涼爽天氣，適合探索與拍攝絕美景色。",
+          weather_winter_title: "冬季（12-2月）",
+          weather_winter_body: "滑雪、溫泉與靜謐雪原，體驗銀白世界的寧靜。",
+          about_title: "我們的故事",
+          about_body:
+            "一個離開大山的男孩，一個走遍世界的女孩，一片等待被看見的土地。 <br> 吉爾吉斯沒有給我們答案，但它給了我們方向——往內走、往心走、往更真實的地方走。 <br> 不是我們選擇了吉爾吉斯，是吉爾吉斯先接住了我們。",
+          about_read_more: "閱讀更多",
+          testimonials_title: "客人分享",
+          testimonials_subtitle: "旅客回饋",
+          google_title: "旅人怎麼說",
+          google_subtitle: "來自 Google 的真實評價",
+          blog_latest: "最新文章",
+          blog_playlist1_tag: "行程攻略",
+          blog_playlist1_title: " 品牌故事",
+          blog_playlist1_desc:
+            "實用路線、季節建議與預算提示，幫你決定怎麼玩吉爾吉斯。",
+          blog_playlist1_item1: "伊塞克湖 vs. 頌湖：到底該去哪裡玩？",
+          blog_playlist1_item2: "蒙古阿爾泰 vs. 吉爾吉斯：高山草原比較",
+          blog_playlist1_item3: "來吉爾吉斯，自助還是跟團？",
+          blog_playlist2_tag: "吉爾吉斯世界觀",
+          blog_playlist2_title: " 吉爾吉斯世界觀 ",
+          blog_playlist2_desc: "旅途中的人與景，帶你走進我們的真實日常。",
+          blog_playlist2_item1: "從辦公室到天山：我的自由人生旅程",
+          blog_playlist2_item2: "來吉爾吉斯一定要體驗的五件事",
+          blog_playlist2_item3: "馬背上的秋色探險——高山森林騎行",
+          blog_playlist3_tag: "客座分享",
+          blog_playlist3_title: "旅遊指南",
+          blog_playlist3_desc:
+            "旅伴、作家與朋友的視角，記錄心動瞬間與文化觀察。",
+          blog_playlist3_item1: "在「中亞瑞士」體驗人生最美好的騎行",
+          blog_playlist3_item2: "草原遊牧民族也住「蒙古包」？",
+          blog_playlist3_item3: "鷹獵人文化探索之旅",
+          why_kicker: "為什麼跟我們旅行",
+          why_title: "在地、精選的旅程",
+          why_lede: "小團、在地專家、非一般行程的獨特體驗。",
+          why_item1_title: "在地洞察",
+          why_item1_body: "土生土長的嚮導，帶你走進真正的吉爾吉斯文化。",
+          why_item2_title: "貼心服務",
+          why_item2_body: "從簽證到飲食需求，在你抵達前就準備妥當。",
+          why_item3_title: "慢旅行",
+          why_item3_body: "少一點奔波，多一點山湖與毡房生活的體驗。",
+          why_item4_title: "安全與彈性",
+          why_item4_body: "可靠夥伴、現代車輛，並為天氣預備備案。",
+          gallery_title: "吉爾吉斯的瞬間",
+          youtube_title: "更多影片",
+          youtube_subtitle:
+            "挑一支你想看的影片，直接跳到 YouTube 深入了解我們的旅程。",
+          youtube_card1_meta: "18:22",
+          youtube_card1_title:
+            "台灣媳婦第一次過中亞冬天，三樣準備就搞定，超震撼！",
+          youtube_card2_meta: "09:58",
+          youtube_card2_title:
+            "台灣人飛到吉爾吉斯🇰🇬見未來公婆，開箱首都的家＋媽媽的牛肉五指麵",
+          youtube_card3_meta: "16:41",
+          youtube_card3_title:
+            "中亞真實生活：台灣媳婦 × 吉爾吉斯婆婆接待12人團的瘋狂日常",
+          insta_kicker: "追蹤我們的旅程",
+          insta_title: "Instagram Reels",
+          insta_subtitle: "看看我們最新的旅途短片、幕后花絮與在地生活記錄。",
+          insta_cta: "前往 Instagram",
+
+          insta_card1_title: "客人的真心話",
+
+          insta_card2_title:
+            "以最道地的吉爾吉斯文化，款待每一位遠道而來的旅人。",
+
+          insta_card3_title: "你聽過吉爾吉斯🇰🇬這個國家嗎？不是馬爾濟斯🐶喔！",
+
+          custom_kicker: "客製行程",
+          custom_title: "為你設計專屬的吉爾吉斯旅行",
+          custom_desc:
+            "告訴我們你的時間、興趣與預算，我們量身打造路線，安排在地體驗、住宿與交通。",
+          custom_btn: "開始規劃行程",
+          footer_about:
+            "與在地人一起走進吉爾吉斯。影片、故事與客製旅程，為好奇的旅人而生。",
+          footer_nav_home: "首頁",
+          footer_nav_tours: "行程",
+          footer_nav_stories: "故事",
+          footer_nav_about: "關於我們",
+          footer_nav_visa: "簽證",
+          footer_nav_faq: "常見問題",
+          footer_nav_contact: "聯絡",
+          footer_cta: "寄送 Email",
+          footer_legal:
+            "吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — 版權所有。",
+        },
+      };
+
+      function setLanguage(lang) {
+        const bundle = translations[lang] || translations.en;
+        document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.dataset.i18n;
+          if (bundle[key]) {
+            const value = bundle[key];
+            if (value.includes("<")) {
+              el.innerHTML = value;
+            } else {
+              el.textContent = value;
+            }
+          }
+        });
+        localStorage.setItem("siteLang", lang);
+        window.currentLang = lang;
+        // Update review texts for current language
+        document.querySelectorAll(".review-text").forEach((textEl) => {
+          const fullKey = lang === "zh" ? "fullZh" : "fullEn";
+          const full =
+            textEl.dataset[fullKey] ||
+            textEl.dataset.full ||
+            textEl.textContent.trim();
+          textEl.dataset.full = full;
+          const short =
+            full.length > 130 ? full.slice(0, 130).trim() + "…" : full;
+          textEl.textContent = short;
+        });
+        if (typeof window.renderTours === "function") {
+          window.renderTours();
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const saved = localStorage.getItem("siteLang") || "en";
+        setLanguage(saved);
+
+        const langBtn = document.querySelector(".nav-lang__btn");
+        if (langBtn) {
+          langBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            const next =
+              localStorage.getItem("siteLang") === "zh" ? "en" : "zh";
+            setLanguage(next);
+          });
+        }
+
+        var textBox = document.querySelector(".text-box");
+        if (textBox) {
+          setTimeout(function () {
+            textBox.classList.add("visible");
+          }, 800); // delay for 0.5 seconds
+        }
+
+        // Review "Read more" overlay
+        document.querySelectorAll(".google-review-card").forEach((card) => {
+          const textEl = card.querySelector(".review-text");
+          const btn = card.querySelector(".review-read-more");
+          if (!textEl || !btn) return;
+          const lang =
+            (window.currentLang || localStorage.getItem("siteLang") || "en") ===
+            "zh"
+              ? "zh"
+              : "en";
+          const full =
+            (lang === "zh" ? textEl.dataset.fullZh : textEl.dataset.fullEn) ||
+            textEl.dataset.full ||
+            textEl.textContent.trim();
+          const short =
+            full.length > 130 ? full.slice(0, 130).trim() + "…" : full;
+          textEl.textContent = short;
+
+          btn.addEventListener("click", () => {
+            let popup = card.querySelector(".review-popup");
+            if (!popup) {
+              popup = document.createElement("div");
+              popup.className = "review-popup";
+              popup.innerHTML = `
+                <div class="review-popup__dialog">
+                  <button class="review-popup__close" type="button">Close</button>
+                  <p class="review-popup__text"></p>
+                </div>
+              `;
+              card.appendChild(popup);
+            }
+            // Recompute full text on click in case language changed
+            const currentLang =
+              (window.currentLang ||
+                localStorage.getItem("siteLang") ||
+                "en") === "zh"
+                ? "zh"
+                : "en";
+            const fullText =
+              (currentLang === "zh"
+                ? textEl.dataset.fullZh
+                : textEl.dataset.fullEn) ||
+              textEl.dataset.full ||
+              textEl.textContent.trim();
+            popup.querySelector(".review-popup__text").textContent = fullText;
+            popup.classList.add("is-open");
+            popup.querySelector(".review-popup__close").onclick = () => {
+              popup.classList.remove("is-open");
+            };
+          });
+        });
+
+        // Review horizontal scroll buttons
+        document.querySelectorAll(".review-scroll-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const dir = parseInt(btn.dataset.dir || "0", 10);
+            const targetSel = btn.dataset.target || "";
+            const track = targetSel ? document.querySelector(targetSel) : null;
+            if (!track) return;
+            const firstCard = track.querySelector(".google-review-card");
+            if (!firstCard || Number.isNaN(dir)) return;
+            const gap =
+              parseFloat(getComputedStyle(track).columnGap || "0") ||
+              parseFloat(getComputedStyle(track).gap || "0") ||
+              0;
+            const amount = firstCard.clientWidth + gap || 300;
+            track.scrollTo({
+              left: track.scrollLeft + dir * amount,
+              behavior: "smooth",
+            });
+          });
+        });
+
+        // Gallery scroll buttons
+        document.querySelectorAll(".gallery__btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const dir = parseInt(btn.dataset.dir || "0", 10);
+            const targetSel = btn.dataset.target || "";
+            const track = targetSel ? document.querySelector(targetSel) : null;
+            if (!track || Number.isNaN(dir)) return;
+            const firstCard = track.querySelector(".gallery__item");
+            const gap =
+              parseFloat(getComputedStyle(track).columnGap || "0") ||
+              parseFloat(getComputedStyle(track).gap || "0") ||
+              0;
+            const amount = (firstCard?.clientWidth || 340) + gap;
+            track.scrollTo({
+              left: track.scrollLeft + dir * amount,
+              behavior: "smooth",
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

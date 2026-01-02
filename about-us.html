@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us | Bek & Ruby</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="about-page">
+    <header class="header">
+      <div class="header-inner">
+        <nav>
+          <div class="logo-wrapper">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                class="head-ruby-logo"
+                src="assets/bek-ruby-logo/white-bek-ruby.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+          </div>
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+              <li><a href="blog.html" data-i18n="nav_tours">Tours</a></li>
+
+              <li><a href="blog.html" data-i18n="nav_stories">Stories</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@bek_ruby"
+                  data-i18n="nav_youtube"
+                  >YouTube</a
+                >
+              </li>
+              <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
+              <li>
+                <a
+                  href="https://kyrgyzstan-tour.notion.site/Bek-Ruby-QA-156e583a17c180a991f8ee8a7355b936?pvs=149"
+                  data-i18n="footer_nav_faq"
+                  >Q&amp;A</a
+                >
+              </li>
+              <!-- <li><a href="visa.html" data-i18n="nav_visa"> Visa</a></li> -->
+              <li class="nav-lang">
+                <a
+                  href="#"
+                  class="nav-lang__btn"
+                  aria-label="Switch language"
+                  data-i18n="nav_lang_label"
+                >
+                  EN / 中文
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <header class="about-hero">
+      <div class="container about-hero__grid">
+        <div class="about-hero__visual">
+          <img
+            src="assets/image-itinerary/about-us/Frame 31.png"
+            alt="Bek and Ruby at sunset in the Kyrgyz mountains"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="about-hero__timeline">
+          <div class="hero-kicker" data-i18n="hero_kicker">go2mountains</div>
+          <h1 data-i18n="hero_timeline_title">我們為什麼開始 go2mountains</h1>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="timeline-content">
+                <div class="meta" data-i18n="hero_timeline_meta1">
+                  2022 · 回到吉爾吉斯結婚
+                </div>
+                <p data-i18n="hero_timeline_p1">
+                  那段時間，是我們人生中最辛苦、也最誠實的時刻。回到鄉下，在大山前完成婚禮，挑戰傳統，也面對了來自父親家族的反對與質疑。
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="timeline-content">
+                <div class="meta" data-i18n="hero_timeline_meta2">
+                  疫情的兩年
+                </div>
+                <p data-i18n="hero_timeline_p2">
+                  被卡在泰國整整兩年，拍影片、剪影片、幾乎沒有收入；即使如此，我們仍然選擇繼續分享吉爾吉斯，因為那是頻道的初衷。
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="timeline-content">
+                <div class="meta" data-i18n="hero_timeline_meta3">
+                  在山與家人之間
+                </div>
+                <p data-i18n="hero_timeline_p3">
+                  沒有排場，只有山、家人、腳下的土地，卻留下了深刻的記憶，也讓我們更確信要真誠記錄這片土地。
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="timeline-content">
+                <div class="meta" data-i18n="hero_timeline_meta4">
+                  沒有商業計畫，只有真心
+                </div>
+                <p data-i18n="hero_timeline_p4">
+                  那時沒有旅行社的藍圖，沒有商業模式；只想用最真實、不修飾的方式，把我們熱愛的吉爾吉斯介紹給世界。
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="timeline-content">
+                <div class="meta" data-i18n="hero_timeline_meta5">
+                  go2mountains 的成長
+                </div>
+                <p data-i18n="hero_timeline_p5">
+                  走過不確定與低潮，我們明白這條路是在傳遞生活方式、價值與信任。go2mountains
+                  就這樣慢慢長出來。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+      <!-- STORY -->
+      <section class="section story" id="story-alt">
+        <div class="story-grid">
+          <div class="story-visual">
+            <img
+              src="assets/image-itinerary/about-us/Frame 30.png"
+              alt="Bek and Ruby together in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="story-tag"></div>
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow" data-i18n="story_alt_eyebrow">
+              Bekruby Prologue
+            </p>
+            <h2 data-i18n="story_alt_title">
+              We didn’t choose Kyrgyzstan — Kyrgyzstan caught us first
+            </h2>
+            <p data-i18n="story_alt_p1">
+              Some places never appear in your plans—not because they’re far,
+              but because, when you’re unprepared, they call you back with
+              something that feels like fate. For us, that place is Kyrgyzstan.
+            </p>
+            <p data-i18n="story_alt_p2">
+              Bek’s story begins with leaving. A riding accident at age ten put
+              him in a hospital bed for a year; while the mountain horses ran
+              free, he relearned to walk, endured pain, and chased after missed
+              lessons. After recovering, he wasn’t as free as before. Friends
+              saw him differently, and he wondered if he’d ever return to being
+              that running kid. So he chose the hardest language, the farthest
+              road—a scholarship to Shanghai for six and a half years—a time of
+              growth, and of escape.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORY -->
+      <section class="section story" id="story">
+        <div class="story-grid">
+          <div class="story-copy">
+            <p class="eyebrow" data-i18n="story_eyebrow">Our Story</p>
+            <h2 data-i18n="story_title">Our story began between two worlds.</h2>
+            <p data-i18n="story_p2"></p>
+            <p data-i18n="story_p3"></p>
+            <p data-i18n="story_p4"></p>
+            <p data-i18n="story_p5"></p>
+          </div>
+
+          <div class="story-visual">
+            <img
+              src="assets/about-us-img/Bek-ruby-together.jpg"
+              alt="Bek and Ruby together in Kyrgyzstan"
+              loading="lazy"
+            />
+            <div class="story-tag"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section class="section section-team" id="team">
+        <h2 data-i18n="team_title">Our team</h2>
+        <p class="muted" data-i18n="team_intro">
+          A six-person crew making sure your Kyrgyzstan story feels personal,
+          safe, and unforgettable.
+        </p>
+
+        <div class="team-grid">
+          <article class="member-card">
+            <img
+              src="assets/about-us-img/bek.jpg"
+              alt="Bek, co-founder and route designer"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Bek</h3>
+              <div class="role" data-i18n="team_bek_role">
+                Co-founder · Route designer
+              </div>
+              <p data-i18n="team_bek_desc">
+                Knows every pass between Naryn and Issyk-Kul; designs the pacing
+                and safety. A six-person crew making sure your Kyrgyzstan story
+                feels personal, safe, and unforgettable.
+              </p>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <img
+              src="assets/about-us-img/ruby-friends.jpg"
+              alt="Ruby, co-founder and storyteller"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Ruby</h3>
+              <div class="role" data-i18n="team_ruby_role">
+                Co-founder · Story lead
+              </div>
+              <p data-i18n="team_ruby_desc">
+                Filmmaker who connects travelers with artisans, musicians, and
+                festivals.
+              </p>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <img
+              src="assets/about-us-img/4-meet-navat.jpg"
+              alt="Navat, community host"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Navat</h3>
+              <div class="role" data-i18n="team_navat_role">Community host</div>
+              <p data-i18n="team_navat_desc">
+                Opens her family yurt, leads cooking sessions, and keeps every
+                guest fed.
+              </p>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <img
+              src="assets/guest-img/user-post-1.jpg"
+              alt="Aizada, operations manager"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Aizada</h3>
+              <div class="role" data-i18n="team_aizada_role">
+                Operations manager
+              </div>
+              <p data-i18n="team_aizada_desc">
+                Coordinates permits, timing, and all the behind-the-scenes
+                details.
+              </p>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <img
+              src="assets/guest-img/user-post-2.jpg"
+              alt="Timur, lead driver"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Timur</h3>
+              <div class="role" data-i18n="team_timur_role">Lead driver</div>
+              <p data-i18n="team_timur_desc">
+                Specializes in mountain roads and keeps long drives smooth and
+                safe.
+              </p>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <img
+              src="assets/guest-img/user-post-yurt.jpg"
+              alt="Aidar, camp & film logistics"
+              loading="lazy"
+            />
+            <div class="body">
+              <h3>Aidar</h3>
+              <div class="role" data-i18n="team_aidar_role">
+                Camp & film logistics
+              </div>
+              <p data-i18n="team_aidar_desc">
+                Sets up sunrise shoots, bonfires, and ensures gear is ready in
+                the wild.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <h3 data-i18n="cta_title">Travel with us</h3>
+        <p data-i18n="cta_body">
+          Tell us your dates and travel style—we’ll craft a Kyrgyzstan journey
+          made for you.
+        </p>
+        <a href="contact.html" class="custom-tour-btn" data-i18n="cta_btn">
+          Start my trip plan
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                src="assets/bek-ruby-logo/bek-ruby-orange-green-2.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+            <p data-i18n="footer_about">
+              Kyrgyzstan journeys with real locals. Films, stories, and bespoke
+              trips designed for curious travelers.
+            </p>
+            <div class="footer-social">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100063753081808"
+                aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bek_ruby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@bek_ruby"
+                aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-columns">
+            <div>
+              <h4>Explore</h4>
+              <ul>
+                <li>
+                  <a href="index.html" data-i18n="footer_nav_home">Home</a>
+                </li>
+
+                <li>
+                  <a href="blog.html" data-i18n="footer_nav_stories">Stories</a>
+                </li>
+                <li>
+                  <a href="about-us.html" data-i18n="footer_nav_about"
+                    >About us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Helpful</h4>
+              <ul>
+                <li>
+                  <!-- <a href="visa.html" data-i18n="footer_nav_visa">Visa</a> -->
+                </li>
+                <li>
+                  <a
+                    href="https://kyrgyzstan-tour.notion.site/Bek-Ruby-QA-156e583a17c180a991f8ee8a7355b936?pvs=149"
+                    data-i18n="footer_nav_faq"
+                    >Q&amp;A</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" data-i18n="footer_nav_contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Contact</h4>
+              <ul class="footer-contact">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> 87 Suleimanto Street,
+                  Ak-Ordo Residential Area, Leninsky District, Bishkek, Kyrgyz
+                  Republic
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@kaganvoyage.com">bekruby.kg@gmail.com</a>
+                </li>
+              </ul>
+              <a
+                class="footer-cta"
+                href="mailto:bekruby.kg@gmail.com"
+                data-i18n="footer_cta"
+                >Send email</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p data-i18n="footer_legal">
+              吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903
+            </p>
+          </div>
+          <p class="footer-copy" data-i18n="footer_copy">
+            © Bek & Ruby 2023 — All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        if (navLinks) navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        if (navLinks) navLinks.style.right = "-200px";
+      }
+
+      const translations = {
+        en: {
+          nav_home: "Home",
+          nav_tours: "Tours",
+          nav_stories: "Stories",
+          nav_youtube: "Youtube",
+          nav_about: "About",
+          nav_visa: "Visa",
+          nav_lang_label: "EN / 中文",
+          hero_badge: "Bek & Ruby • Kyrgyz storytellers",
+          hero_title: "Journeys designed by filmmakers who grew up here",
+          hero_body:
+            "We film, host, and guide across Kyrgyzstan. Every route is crafted with locals we trust—so you travel like family, not a tourist.",
+          hero_cta: "Plan with us",
+          hero_kicker: "go2mountains",
+          hero_timeline_title: "Why we started go2mountains",
+          hero_timeline_meta1: "2022 · Returned to Kyrgyzstan to get married",
+          hero_timeline_p1:
+            "It was one of the hardest yet most honest moments of our lives. In the countryside, in front of the mountains, we held a wedding that challenged tradition.",
+          hero_timeline_meta2: "Two years in the pandemic",
+          hero_timeline_p2:
+            "Stranded in Thailand for two years, filming and editing with almost no income—we kept sharing Kyrgyzstan because that was our channel’s original purpose.",
+          hero_timeline_meta3: "Between mountains and family",
+          hero_timeline_p3:
+            "No pomp, just mountains, family, and the ground under our feet—a memory that made us sure we should keep telling this place honestly.",
+          hero_timeline_meta4: "No business plan, only heart",
+          hero_timeline_p4:
+            "We had no blueprint for a travel company, no business model—only a desire to show the Kyrgyzstan we love in the most genuine, unpolished way.",
+          hero_timeline_meta5: "How go2mountains grew",
+          hero_timeline_p5:
+            "After uncertainty and lows, we realized this path is about sharing a way of life, values, and trust. That’s how go2mountains slowly took shape.",
+          story_eyebrow: "Our Story",
+          story_title: "Our story began between two worlds.",
+          story_p1:
+            "Drawn to mountains, traditional cultures, and slow living, we found a shared curiosity for places beyond big cities.",
+          story_p2:
+            "After years living abroad, Bek realized that very few people truly knew Kyrgyzstan — its vast landscapes, nomadic traditions, and way of life.",
+          story_p3:
+            "Every summer, Bek returned to the mountains to visit his grandparents and spend time with nomadic families, living in yurts, riding horses, and following nature’s rhythm.",
+          story_p4:
+            "We love creating and sharing real stories. Through filming and storytelling, we show Kyrgyzstan honestly — not as a fantasy, but as a living place worth exploring.",
+          story_p5: "Today, we share Kyrgyzstan with the world.",
+          story_alt_eyebrow: "Bekruby Prologue",
+          story_alt_title:
+            "We didn’t choose Kyrgyzstan — Kyrgyzstan caught us first",
+          story_alt_p1:
+            "Some places never appear in your plans—not because they’re far, but because, when you’re unprepared, they call you back with something that feels like fate. For us, that place is Kyrgyzstan.",
+          story_alt_p2:
+            "Bek’s story begins with leaving. A riding accident at age ten put him in a hospital bed for a year; while the mountain horses ran free, he relearned to walk, endured pain, and chased after missed lessons. After recovering, he wasn’t as free as before. Friends saw him differently, and he wondered if he’d ever return to being that running kid. So he chose the hardest language, the farthest road—a scholarship to Shanghai for six and a half years—a time of growth, and of escape.",
+          team_title: "Our team",
+          team_intro:
+            "A six-person crew making sure your Kyrgyzstan story feels personal, safe, and unforgettable.",
+          team_bek_role: "Co-founder · Route designer",
+          team_bek_desc:
+            "Knows every pass between Naryn and Issyk-Kul; designs the pacing and safety. A six-person crew making sure your Kyrgyzstan story feels personal, safe, and unforgettable.",
+          team_ruby_role: "Co-founder · Story lead",
+          team_ruby_desc:
+            "Filmmaker who connects travelers with artisans, musicians, and festivals.",
+          team_navat_role: "Community host",
+          team_navat_desc:
+            "Opens her family yurt, leads cooking sessions, and keeps every guest fed.",
+          team_aizada_role: "Operations manager",
+          team_aizada_desc:
+            "Coordinates permits, timing, and all the behind-the-scenes details.",
+          team_timur_role: "Lead driver",
+          team_timur_desc:
+            "Specializes in mountain roads and keeps long drives smooth and safe.",
+          team_aidar_role: "Camp & film logistics",
+          team_aidar_desc:
+            "Sets up sunrise shoots, bonfires, and ensures gear is ready in the wild.",
+          cta_title: "Travel with us",
+          cta_body:
+            "Tell us your dates and travel style—we’ll craft a Kyrgyzstan journey made for you.",
+          cta_btn: "Start my trip plan",
+          footer_about:
+            "Kyrgyzstan journeys with real locals. Films, stories, and bespoke trips designed for curious travelers.",
+          footer_nav_home: "Home",
+          footer_nav_tours: "Tours",
+          footer_nav_stories: "Stories",
+          footer_nav_about: "About us",
+          footer_nav_visa: "Visa",
+          footer_nav_faq: "Q&A",
+          footer_nav_contact: "Contact",
+          footer_cta: "Send email",
+          footer_legal:
+            "Kyrgyz travel agency · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — All Rights Reserved.",
+        },
+        zh: {
+          nav_home: "首頁",
+          nav_tours: "行程",
+          nav_stories: "故事",
+          nav_youtube: "YouTube",
+          nav_about: "關於我們",
+          nav_visa: "簽證",
+          nav_lang_label: "中文 / EN",
+          hero_badge: "Bek & Ruby • 吉爾吉斯故事人",
+          hero_title: "在地影像創作者為你設計的旅程",
+          hero_body:
+            "我們在吉爾吉斯拍攝、接待、帶團。每條路線都由信任的在地夥伴協作，讓你像家人而非遊客。",
+          hero_cta: "和我們規劃",
+          hero_kicker: "go2mountains",
+          hero_timeline_title: "我們為什麼開始 go2mountains",
+          hero_timeline_meta1: "2022 · 回到吉爾吉斯結婚",
+          hero_timeline_p1:
+            "那段時間，是我們人生中最辛苦、也最誠實的時刻。回到鄉下，在大山前完成婚禮，挑戰傳統。",
+          hero_timeline_meta2: "疫情的兩年",
+          hero_timeline_p2:
+            "被卡在泰國整整兩年，拍影片、剪影片、幾乎沒有收入；即使如此，我們仍然選擇繼續分享吉爾吉斯，因為那是頻道的初衷。",
+          hero_timeline_meta3: "在山與家人之間",
+          hero_timeline_p3:
+            "沒有排場，只有山、家人、腳下的土地，卻留下了深刻的記憶，也讓我們更確信要真誠記錄這片土地。",
+          hero_timeline_meta4: "沒有商業計畫，只有真心",
+          hero_timeline_p4:
+            "那時沒有旅行社的藍圖，沒有商業模式；只想用最真實、不修飾的方式，把我們熱愛的吉爾吉斯介紹給世界。",
+          hero_timeline_meta5: "go2mountains 的成長",
+          hero_timeline_p5:
+            "走過不確定與低潮，我們明白這條路是在傳遞生活方式、價值與信任。go2mountains 就這樣慢慢長出來。",
+          story_eyebrow: "Ruby 的故事",
+          story_title: "從「靠近世界」開始。",
+          story_p1:
+            "十年來她邊工作邊旅行，喜歡閱讀、登山、古老冒險家的故事與遙遠的大山。當 Bek 說出吉爾吉斯時，她其實一無所知，卻清楚地知道自己想去看看。第一次走進那片土地，見家人、上山騎馬、走到三千米的高山湖、在遊牧人家喝熱茶，她第一次感到世界如此真實，也第一次不再急著奔向下一站。",
+          story_p2:
+            "我們之所以留下，是因為吉爾吉斯讓我們找回了自己。Bek 回到大山與馬背上，Ruby 找到了靈魂的節奏與歸屬，而我們一起找到了繼續前進的力量。這片土地沒有給我們標準答案，只給了一個方向——往內走、往心走、往更真實的地方走。",
+          story_p3:
+            "謝謝吉爾吉斯，它沒有催促我們，也沒有要求我們成為誰，只是靜靜地讓我們重新呼吸。我們選擇留下、記錄，並分享這裡的溫度，只希望有一天，你也能在旅行的某一刻，被世界溫柔地接住。",
+          story_p4:
+            "我們喜歡創作和分享真實的故事。透過拍攝與敘事，我們誠實地呈現吉爾吉斯——不是幻想，而是一個值得探索的鮮活地方。",
+          story_p5: "今天，我們把吉爾吉斯分享給世界。",
+          story_alt_eyebrow: "Bekruby 品牌序章",
+          story_alt_title: "不是我們選擇了吉爾吉斯，是吉爾吉斯先接住了我們",
+          story_alt_p1:
+            "有些地方，不會在你的計畫裡出現，不是因為它遙遠，而是因為它會在你毫無準備的時刻，用一種近乎命運的方式，把你喚回來。對我們而言，那個地方叫做吉爾吉斯。",
+          story_alt_p2:
+            "Bek 的故事從離開開始。十歲時的一場騎馬意外，讓他在醫院住了一整年，當山上的馬群自由奔跑時，他卻在病床上重新學習走路、忍耐疼痛、努力追上被落下的課業。康復之後，他不再像從前那麼自由，同儕的眼光改變了，他也開始懷疑自己是不是永遠回不去那個奔跑的孩子，於是他決定學最難的語言，走最遠的路，憑著獎學金到了上海，待了六年半，那是一段成長，也是逃離的時光。",
+          team_title: "我們的團隊",
+          team_intro: "六人小組，讓你的吉爾吉斯故事真實、安心、難忘。",
+          team_bek_role: "共同創辦人 · 路線設計",
+          team_bek_desc: "熟悉納倫到伊塞克湖的每個山口；設計節奏與安全。",
+          team_ruby_role: "共同創辦人 · 故事統籌",
+          team_ruby_desc: "影像創作者，串聯旅人與工藝師、音樂人、節慶活動。",
+          team_navat_role: "社群接待",
+          team_navat_desc: "開放自家毡房，帶領料理體驗，讓大家吃得滿意。",
+          team_aizada_role: "營運經理",
+          team_aizada_desc: "處理許可、時間與所有幕後細節。",
+          team_timur_role: "首席司機",
+          team_timur_desc: "專長山路，讓長途駕車平穩安全。",
+          team_aidar_role: "營地與拍攝後勤",
+          team_aidar_desc: "佈置日出拍攝、營火，確保野外器材就緒。",
+          cta_title: "和我們同行",
+          cta_body: "告訴我們你的日期與旅遊風格，我們為你打造吉爾吉斯旅程。",
+          cta_btn: "開始規劃旅程",
+          footer_about:
+            "與在地人一起走進吉爾吉斯。影片、故事與客製旅程，為好奇的旅人而生。",
+          footer_nav_home: "首頁",
+          footer_nav_tours: "行程",
+          footer_nav_stories: "故事",
+          footer_nav_about: "關於我們",
+          footer_nav_visa: "簽證",
+          footer_nav_faq: "常見問題",
+          footer_nav_contact: "聯絡",
+          footer_cta: "寄送 Email",
+          footer_legal:
+            "吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — 版權所有。",
+        },
+      };
+
+      function setLanguage(lang) {
+        const bundle = translations[lang] || translations.en;
+        document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.dataset.i18n;
+          if (!bundle[key]) return;
+          const value = bundle[key];
+          if (value.includes("<")) {
+            el.innerHTML = value;
+          } else {
+            el.textContent = value;
+          }
+        });
+        localStorage.setItem("siteLang", lang);
+        window.currentLang = lang;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const saved = localStorage.getItem("siteLang") || "en";
+        setLanguage(saved);
+
+        const langBtn = document.querySelector(".nav-lang__btn");
+        if (langBtn) {
+          langBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            const next =
+              (localStorage.getItem("siteLang") || "en") === "zh" ? "en" : "zh";
+            setLanguage(next);
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

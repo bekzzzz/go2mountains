@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="bek-ruby-logo/bek-ruby-title-logo-2.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>簽證問題 - Visa</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <link rel="stylesheet" href="css/visa.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="visa-page">
+    <header class="header">
+      <div class="header-inner">
+        <nav>
+          <div class="logo-wrapper">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                class="head-ruby-logo"
+                src="assets/bek-ruby-logo/white-bek-ruby.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+          </div>
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+              <li><a href="index.html#tours" data-i18n="nav_tours">Tours</a></li>
+
+              <li><a href="blog.html" data-i18n="nav_stories">Stories</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@bek_ruby"
+                  data-i18n="nav_youtube"
+                  >Youtube</a
+                >
+              </li>
+              <li><a href="about-us.html" data-i18n="nav_about">About</a></li>
+              <!-- <li><a href="visa.html" data-i18n="nav_visa"> Visa</a></li> -->
+              <li class="nav-lang">
+                <a
+                  href="#"
+                  class="nav-lang__btn"
+                  aria-label="Switch language"
+                  data-i18n="nav_lang_label"
+                >
+                  EN / 中文
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!---------- Visa ----------->
+
+    <section class="visa">
+      <div class="visa-shell">
+        <div class="visa-image">
+          <img
+            src="assets/images/visa-photo.jpeg"
+            alt="Kyrgyz visa photo"
+            loading="lazy"
+          />
+        </div>
+        <div class="visa-body">
+          <p class="eyebrow" data-i18n="visa_kicker">Visa quick guide</p>
+          <h2 data-i18n="visa_title">Simplify your Kyrgyzstan visa</h2>
+          <p class="visa-lede" data-i18n="visa_lede">
+            Clear rules, one point of contact, and reliable approvals for
+            travelers joining our trips.
+          </p>
+          <div class="visa-cards">
+            <div class="mini-card">
+              <h3 data-i18n="visa_card1_title">Who needs it</h3>
+              <ul>
+                <li data-i18n="visa_card1_item1">
+                  Singapore &amp; BNO (HK): Visa-free entry.
+                </li>
+                <li data-i18n="visa_card1_item2">
+                  Taiwan passport: e-visa risk is high (~70%) if self-applied.
+                </li>
+              </ul>
+            </div>
+            <div class="mini-card">
+              <h3 data-i18n="visa_card2_title">Our service</h3>
+              <ul>
+                <li data-i18n="visa_card2_item1">
+                  Kyrgyz e-visa handling for Taiwan passports.
+                </li>
+                <li data-i18n="visa_card2_item2">100% success with official approval.</li>
+                <li data-i18n="visa_card2_item3">Fee from USD 180.</li>
+              </ul>
+            </div>
+            <div class="mini-card">
+              <h3 data-i18n="visa_card3_title">Steps</h3>
+              <ul>
+                <li data-i18n="visa_card3_item1">Email us your passport scan.</li>
+                <li data-i18n="visa_card3_item2">We pre-check, submit, and track.</li>
+                <li data-i18n="visa_card3_item3">Receive approved e-visa by email.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="visa-actions">
+            <a class="visa-cta" href="mailto:bekruby.kg@gmail.com" data-i18n="visa_cta"
+              >Email to start</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Visa  Q&A----------->
+
+    <section class="visa-quastion-answers">
+      <h2 class="title" data-i18n="faq_title">FAQs</h2>
+
+      <div class="faq">
+        <div class="question">
+          <h3 data-i18n="faq_q1">簽證問題</h3>
+
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="black"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p data-i18n="faq_a1">
+            參加團我們可以代辦簽證，一人100美金，繳交訂金一起支付，
+            申請簽證需要兩週時間。
+            簽證效期是一個月，從出發吉爾吉斯那天開始算起！
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3 data-i18n="faq_q2">可以只辦簽證不參加團嗎？</h3>
+
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="black"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p data-i18n="faq_a2">
+            可以！ 單純代辦電子簽證100% 通過是一人180 美金，約14個工作天，
+            <br />
+            如需加急辦理，七個工作天一人280 美金。 <br />
+            也可自行線上辦理電子簽證，台灣護照有70%被拒簽可能，
+            拒簽我們無法幫忙， 一年後才可再辦理。
+            <br />
+            我們沒有聽過落地簽證，也沒有任何經驗。 <br />
+            也可到附近國家有吉爾吉斯大使館辦理紙本簽證，網路上資訊是寫約兩週出簽。
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3 data-i18n="faq_q3">如何申請電子簽證？</h3>
+
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="black"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p data-i18n="faq_a3">
+            1 護照照片 電子檔 (手機拍照可，不裁切任何資訊 ） <br />
+            2 個人照一張   請人用手機拍攝， 要拍到肩膀背景白色
+            （請勿翻拍證件照，不清楚）  <br />
+            3 出發往吉爾吉斯時間（不是抵達喔）簽證效期一個月 <br />
+            4 請回答: <br />
+            是否來過吉爾吉斯？ <br />
+            是否申請過吉爾吉斯電子簽證被拒絕？ <br />
+          </p>
+
+          <p>
+            送件後約兩週可收到吉爾吉斯電子簽證 <br />
+            以上資料請mail 到：   bekruby.kg@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <p class="more-info" data-i18n="faq_more">
+        如果您有任何的問題，可以與我們保持聯繫，我們可以盡量提供您相關必要的訊息，謝謝您！）
+      </p>
+    </section>
+
+    <!-------- footer ---------->
+
+    <!---------- Footer----------->
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                src="assets/bek-ruby-logo/bek-ruby-orange-green-2.svg"
+                alt="Bek Ruby Logo"
+              />
+            </a>
+            <p data-i18n="footer_about">
+              Kyrgyzstan journeys with real locals. Films, stories, and bespoke
+              trips designed for curious travelers.
+            </p>
+            <div class="footer-social">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100063753081808"
+                aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bek_ruby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@bek_ruby"
+                aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-columns">
+            <div>
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="index.html" data-i18n="footer_nav_home">Home</a></li>
+                <li><a href="index.html#tours" data-i18n="footer_nav_tours">Tours</a></li>
+                <li><a href="blog.html" data-i18n="footer_nav_stories">Stories</a></li>
+                <li><a href="about-us.html" data-i18n="footer_nav_about">About us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Helpful</h4>
+              <ul>
+                <!-- <a href="visa.html" data-i18n="footer_nav_visa">Visa</a> -->
+                <li><a href="https://kyrgyzstan-tour.notion.site/Bek-Ruby-QA-156e583a17c180a991f8ee8a7355b936?pvs=149" data-i18n="footer_nav_faq">Q&amp;A</a></li>
+                <li><a href="contact.html" data-i18n="footer_nav_contact">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Contact</h4>
+              <ul class="footer-contact">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> 87 Suleimanto Street,
+                  Ak-Ordo Residential Area, Leninsky District, Bishkek, Kyrgyz
+                  Republic
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:bekruby.kg@gmail.com">bekruby.kg@gmail.com</a>
+                </li>
+              </ul>
+              <a class="footer-cta" href="mailto:bekruby.kg@gmail.com"
+                >Send email</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p data-i18n="footer_legal">
+              吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903
+            </p>
+          </div>
+          <p class="footer-copy" data-i18n="footer_copy">
+            © Bek & Ruby 2023 — All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="question-answer.js"></script>
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        if (navLinks) navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        if (navLinks) navLinks.style.right = "-200px";
+      }
+
+      const translations = {
+        en: {
+          nav_home: "Home",
+          nav_tours: "Tours",
+          nav_stories: "Stories",
+          nav_youtube: "Youtube",
+          nav_about: "About",
+          nav_visa: "Visa",
+          nav_lang_label: "EN / 中文",
+          visa_kicker: "Visa quick guide",
+          visa_title: "Simplify your Kyrgyzstan visa",
+          visa_lede:
+            "Clear rules, one point of contact, and reliable approvals for travelers joining our trips.",
+          visa_card1_title: "Who needs it",
+          visa_card1_item1: "Singapore & BNO (HK): Visa-free entry.",
+          visa_card1_item2: "Taiwan passport: e-visa risk is high (~70%) if self-applied.",
+          visa_card2_title: "Our service",
+          visa_card2_item1: "Kyrgyz e-visa handling for Taiwan passports.",
+          visa_card2_item2: "100% success with official approval.",
+          visa_card2_item3: "Fee from USD 180.",
+          visa_card3_title: "Steps",
+          visa_card3_item1: "Email us your passport scan.",
+          visa_card3_item2: "We pre-check, submit, and track.",
+          visa_card3_item3: "Receive approved e-visa by email.",
+          visa_cta: "Email to start",
+          faq_title: "FAQs",
+          faq_q1: "Visa questions",
+          faq_a1:
+            "Joining our group? We can process the visa for USD 100 per person, paid with the deposit. Processing takes about two weeks. Visa is valid for one month from your departure for Kyrgyzstan.",
+          faq_q2: "Can you handle only the visa without joining a tour?",
+          faq_a2:
+            "Yes! Standalone e-visa handling is USD 180 per person (about 14 business days). Express service: USD 280 per person (about 7 business days). You can self-apply online, but Taiwan passports have ~70% rejection; if refused, we can’t assist and you must wait a year to reapply. We have no experience with visa on arrival. Embassy paper visas in nearby countries typically take ~2 weeks per public info.",
+          faq_q3: "How to apply for the e-visa?",
+          faq_a3:
+            "1) Passport photo (digital; phone photo ok, no cropping).<br />2) One personal photo (taken on phone, shoulders visible, white background; do not re-shoot an ID photo).<br />3) Departure date to Kyrgyzstan (visa valid 1 month from departure).<br />4) Please answer:<br />Have you been to Kyrgyzstan? Have you ever been refused a Kyrgyz e-visa?<br /><br />Processing takes about two weeks after submission. Send the above to: bekruby.kg@gmail.com",
+          faq_more:
+            "If you have any questions, stay in touch and we’ll share the info you need. Thank you!",
+          footer_about:
+            "Kyrgyzstan journeys with real locals. Films, stories, and bespoke trips designed for curious travelers.",
+          footer_nav_home: "Home",
+          footer_nav_tours: "Tours",
+          footer_nav_stories: "Stories",
+          footer_nav_about: "About us",
+          footer_nav_visa: "Visa",
+          footer_nav_faq: "Q&A",
+          footer_nav_contact: "Contact",
+          footer_cta: "Send email",
+          footer_legal: "Kyrgyz travel agency · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — All Rights Reserved.",
+        },
+        zh: {
+          nav_home: "首頁",
+          nav_tours: "行程",
+          nav_stories: "故事",
+          nav_youtube: "YouTube",
+          nav_about: "關於我們",
+          nav_visa: "簽證",
+          nav_lang_label: "中文 / EN",
+          visa_kicker: "簽證速覽",
+          visa_title: "輕鬆辦好吉爾吉斯簽證",
+          visa_lede: "清楚規則、單一窗口、可靠核准，給參團旅客安心的簽證服務。",
+          visa_card1_title: "誰需要辦",
+          visa_card1_item1: "新加坡 & BNO（港）：免簽入境。",
+          visa_card1_item2: "台灣護照：自行申請電子簽有約 70% 被拒風險。",
+          visa_card2_title: "我們的服務",
+          visa_card2_item1: "協助台灣護照申辦吉爾吉斯電子簽。",
+          visa_card2_item2: "官方核准，通過率 100%。",
+          visa_card2_item3: "費用自 USD 180 起。",
+          visa_card3_title: "流程",
+          visa_card3_item1: "Email 護照掃描給我們。",
+          visa_card3_item2: "我們預審、送件並追蹤進度。",
+          visa_card3_item3: "電子簽核准後寄到你的 Email。",
+          visa_cta: "Email 開始辦理",
+          faq_title: "常見問題",
+          faq_q1: "簽證問題",
+          faq_a1:
+            "參團可代辦簽證，一人 100 美金，與訂金一起支付；處理約兩週。簽證效期一個月，從出發吉爾吉斯那天算起。",
+          faq_q2: "可以只辦簽證不參加團嗎？",
+          faq_a2:
+            "可以！單純代辦電子簽 100% 通過，一人 180 美金，約 14 個工作天。加急 7 個工作天一人 280 美金。也可自行線上辦理，但台灣護照約 70% 會被拒，拒簽我們無法協助，一年後才能再辦。沒有落地簽經驗。若就近到有吉爾吉斯大使館的國家，可辦紙本簽，網路資訊約兩週。",
+          faq_q3: "如何申請電子簽證？",
+          faq_a3:
+            "1) 護照照片電子檔（手機拍照可，不裁切）。<br />2) 個人照一張（手機拍，拍到肩膀，背景白色，不要翻拍證件照）。<br />3) 出發吉爾吉斯的日期（效期一個月）。<br />4) 請回答：是否來過吉爾吉斯？是否曾被拒簽？<br /><br />送件約兩週收到電子簽。資料請寄 bekruby.kg@gmail.com。",
+          faq_more: "有任何問題，歡迎聯繫，我們會提供必要資訊，謝謝！",
+          footer_about: "與在地人一起走進吉爾吉斯。影片、故事與客製旅程，為好奇的旅人而生。",
+          footer_nav_home: "首頁",
+          footer_nav_tours: "行程",
+          footer_nav_stories: "故事",
+          footer_nav_about: "關於我們",
+          footer_nav_visa: "簽證",
+          footer_nav_faq: "常見問題",
+          footer_nav_contact: "聯絡",
+          footer_cta: "寄送 Email",
+          footer_legal: "吉爾吉斯旅行社 · Reg No. 11708197200956 · OKPO 34155903",
+          footer_copy: "© Bek & Ruby 2023 — 版權所有。",
+        },
+      };
+
+      function setLanguage(lang) {
+        const bundle = translations[lang] || translations.en;
+        document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.dataset.i18n;
+          if (!bundle[key]) return;
+          const value = bundle[key];
+          if (value.includes("<")) {
+            el.innerHTML = value;
+          } else {
+            el.textContent = value;
+          }
+        });
+        localStorage.setItem("siteLang", lang);
+        window.currentLang = lang;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const saved = localStorage.getItem("siteLang") || "en";
+        setLanguage(saved);
+
+        const langBtn = document.querySelector(".nav-lang__btn");
+        if (langBtn) {
+          langBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            const next = (localStorage.getItem("siteLang") || "en") === "zh" ? "en" : "zh";
+            setLanguage(next);
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
